@@ -1,3 +1,4 @@
+#!/bin/bash
 # Installation prerequisites for the network simulation NS3 version 3.33
 
 #minimal requirements for Python API users (release 3.30 and newer, and ns-3-dev)
