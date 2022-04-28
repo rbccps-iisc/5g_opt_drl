@@ -106,7 +106,7 @@ void ThroughputMonitor (FlowMonitorHelper *fmhelper, Ptr<FlowMonitor> flowMon,Gn
     for (std::map<FlowId, FlowMonitor::FlowStats>::const_iterator stats = flowStats.begin (); stats != flowStats.end (); ++stats)
     {
       Ipv4FlowClassifier::FiveTuple fiveTuple = classing->FindFlow (stats->first);
-       if (fiveTuple.sourceAddress == Ipv4Address("1.0.0.2")
+       if (fiveTuple.sourceAddress == Ipv4Address("1.0.0.2"))
       {
 
       std::cout<<"Flow ID     : " << stats->first <<" ; "<< fiveTuple.sourceAddress <<" -----> "<<fiveTuple.destinationAddress<<std::endl;

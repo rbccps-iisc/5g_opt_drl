@@ -30,15 +30,15 @@ sudo apt install wireshark -y
 
 sudo apt install sqlite sqlite3 libsqlite3-dev -y
 sudo apt install libxml2 libxml2-dev -y
-sudo apt install cmake libc6-dev libc6-dev-i386 libclang-dev llvm-dev automake python3-pip
+sudo apt install cmake libc6-dev libc6-dev-i386 libclang-dev llvm-dev automake python3-pip -y
 python3 -m pip install --user cxxfilt
-sudo apt install libgtk-3-dev
+sudo apt install libgtk-3-dev -y
 
 sudo apt install vtun lxc uml-utilities -y
-sudo apt install libxml2 libxml2-dev libboost-all-dev
+sudo apt install libxml2 libxml2-dev libboost-all-dev -y
 
 #install libzmq libraries
-sudo apt-get install libzmq5 libzmq3-dev libczmq-dev libczmq4 libxml2 libxml2-dev
+sudo apt-get install libzmq5 libzmq3-dev libczmq-dev libczmq4 libxml2 libxml2-dev -y
 
 
 #Downloading ns-3 Using a Tarball

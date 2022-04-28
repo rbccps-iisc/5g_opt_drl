@@ -9,6 +9,10 @@ $ ./net_init.sh
 ####RUNNING THE SIMULATION
 2. Go to the network folder and run the simulation script
 ```
+$ cd network
+$ ./update_scratch.sh
+```
+```
 $ cd network/ns-allinone-3.33/ns-3.33
 $ ./waf --run lte_config    
 ```
