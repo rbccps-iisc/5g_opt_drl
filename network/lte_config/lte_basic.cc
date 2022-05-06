@@ -3,13 +3,13 @@
 #include "ns3/internet-module.h"
 #include "ns3/mobility-module.h"
 #include "ns3/lte-module.h"
-#include "ns3/lte-module.h"
-#include "ns3/flow-monitor-module.h"
+// #include "ns3/lte-module.h"
+// #include "ns3/flow-monitor-module.h"
 #include "ns3/applications-module.h"
 #include "ns3/point-to-point-module.h"
 #include "ns3/config-store-module.h"
-#include "ns3/netanim-module.h"
-#include "ns3/gnuplot.h"
+// #include "ns3/netanim-module.h"
+// #include "ns3/gnuplot.h"
 #include <math.h>
 
 using namespace ns3;
@@ -98,41 +98,41 @@ NotifyHandoverEndOkEnb (std::string context,
             << std::endl;
 }
 
-void ThroughputMonitor (FlowMonitorHelper *fmhelper, Ptr<FlowMonitor> flowMon,Gnuplot2dDataset DataSet)
-  {
-    double localThrou=0;
-    std::map<FlowId, FlowMonitor::FlowStats> flowStats = flowMon->GetFlowStats();
-    Ptr<Ipv4FlowClassifier> classing = DynamicCast<Ipv4FlowClassifier> (fmhelper->GetClassifier());
-    for (std::map<FlowId, FlowMonitor::FlowStats>::const_iterator stats = flowStats.begin (); stats != flowStats.end (); ++stats)
-    {
-      Ipv4FlowClassifier::FiveTuple fiveTuple = classing->FindFlow (stats->first);
-       if (fiveTuple.sourceAddress == Ipv4Address("1.0.0.2"))
-      {
+// void ThroughputMonitor (FlowMonitorHelper *fmhelper, Ptr<FlowMonitor> flowMon,Gnuplot2dDataset DataSet)
+//   {
+//     double localThrou=0;
+//     std::map<FlowId, FlowMonitor::FlowStats> flowStats = flowMon->GetFlowStats();
+//     Ptr<Ipv4FlowClassifier> classing = DynamicCast<Ipv4FlowClassifier> (fmhelper->GetClassifier());
+//     for (std::map<FlowId, FlowMonitor::FlowStats>::const_iterator stats = flowStats.begin (); stats != flowStats.end (); ++stats)
+//     {
+//       Ipv4FlowClassifier::FiveTuple fiveTuple = classing->FindFlow (stats->first);
+//        if (fiveTuple.sourceAddress == Ipv4Address("1.0.0.2"))
+//       {
 
-      std::cout<<"Flow ID     : " << stats->first <<" ; "<< fiveTuple.sourceAddress <<" -----> "<<fiveTuple.destinationAddress<<std::endl;
-      std::cout<<"Tx Packets : " << stats->second.txPackets<<std::endl;
-      std::cout<<"Rx Packets : " << stats->second.rxPackets<<std::endl;
-      std::cout<<"Duration    : "<<(stats->second.timeLastRxPacket.GetSeconds()-stats->second.timeFirstTxPacket.GetSeconds())<<std::endl;
-      std::cout<<"Last Received Packet  : "<< stats->second.timeLastRxPacket.GetSeconds()<<" Seconds"<<std::endl;
-      std::cout<<"Throughput: " << stats->second.rxBytes * 8.0 / (stats->second.timeLastRxPacket.GetSeconds()-stats->second.timeFirstTxPacket.GetSeconds())/1024  << " Kbps"<<std::endl;
-      std::cout<< "Mean{Delay}: " << (stats->second.delaySum.GetSeconds()/stats->second.rxPackets) << "\n";
-      std::cout<< "Mean{Jitter}: " << (stats->second.jitterSum.GetSeconds()/(stats->second.rxPackets)) << "\n";
-      std::cout<< "Total{Delay}: " << (stats->second.delaySum.GetSeconds()) << "\n";
-      std::cout<< "Total{Jitter}: " << (stats->second.jitterSum.GetSeconds()) << "\n";
-      std::cout<< "Lost Packets: " << (stats->second.lostPackets) << "\n";
-      std::cout<< "Dropped Packets: " << (stats->second.packetsDropped.size()) << "\n";
-      localThrou=(stats->second.rxBytes * 8.0 / (stats->second.timeLastRxPacket.GetSeconds()-stats->second.timeFirstTxPacket.GetSeconds())/1024);
-      // updata gnuplot data
-            DataSet.Add((double)Simulator::Now().GetSeconds(),(double) localThrou);
-      std::cout<<"---------------------------------------------------------------------------"<<std::endl;
-      }
-    }
-      Simulator::Schedule(Seconds(0.2  ),&ThroughputMonitor, fmhelper, flowMon,DataSet);
-      {
-  flowMon->SerializeToXmlFile ("ThroughputMonitor.xml", true, true);
-      }
+//       std::cout<<"Flow ID     : " << stats->first <<" ; "<< fiveTuple.sourceAddress <<" -----> "<<fiveTuple.destinationAddress<<std::endl;
+//       std::cout<<"Tx Packets : " << stats->second.txPackets<<std::endl;
+//       std::cout<<"Rx Packets : " << stats->second.rxPackets<<std::endl;
+//       std::cout<<"Duration    : "<<(stats->second.timeLastRxPacket.GetSeconds()-stats->second.timeFirstTxPacket.GetSeconds())<<std::endl;
+//       std::cout<<"Last Received Packet  : "<< stats->second.timeLastRxPacket.GetSeconds()<<" Seconds"<<std::endl;
+//       std::cout<<"Throughput: " << stats->second.rxBytes * 8.0 / (stats->second.timeLastRxPacket.GetSeconds()-stats->second.timeFirstTxPacket.GetSeconds())/1024  << " Kbps"<<std::endl;
+//       std::cout<< "Mean{Delay}: " << (stats->second.delaySum.GetSeconds()/stats->second.rxPackets) << "\n";
+//       std::cout<< "Mean{Jitter}: " << (stats->second.jitterSum.GetSeconds()/(stats->second.rxPackets)) << "\n";
+//       std::cout<< "Total{Delay}: " << (stats->second.delaySum.GetSeconds()) << "\n";
+//       std::cout<< "Total{Jitter}: " << (stats->second.jitterSum.GetSeconds()) << "\n";
+//       std::cout<< "Lost Packets: " << (stats->second.lostPackets) << "\n";
+//       std::cout<< "Dropped Packets: " << (stats->second.packetsDropped.size()) << "\n";
+//       localThrou=(stats->second.rxBytes * 8.0 / (stats->second.timeLastRxPacket.GetSeconds()-stats->second.timeFirstTxPacket.GetSeconds())/1024);
+//       // updata gnuplot data
+//             DataSet.Add((double)Simulator::Now().GetSeconds(),(double) localThrou);
+//       std::cout<<"---------------------------------------------------------------------------"<<std::endl;
+//       }
+//     }
+//       Simulator::Schedule(Seconds(0.2  ),&ThroughputMonitor, fmhelper, flowMon,DataSet);
+//       {
+//   flowMon->SerializeToXmlFile ("ThroughputMonitor.xml", true, true);
+//       }
 
-  }
+//   }
 
 
 /**
@@ -143,16 +143,21 @@ void ThroughputMonitor (FlowMonitorHelper *fmhelper, Ptr<FlowMonitor> flowMon,Gn
 int
 main (int argc, char *argv[])
 {
-  uint16_t numberOfUes = 20;
-  uint16_t numberOfEnbs = 1;
-  //uint16_t numBearersPerUe = 2;
-  double simTime = 1.0;
-  //double distance = 100.0;
+  uint16_t numberOfUes = 10;//10;//#20;
+  uint16_t numberOfEnbs = 2;//4;//2;///3;//1;
+  uint16_t numBearersPerUe = 2;
+  Time simTime = MilliSeconds (1000); //490
+  // double simTime = 1.0;
+  // Time simTime = MilliSeconds (490);
+  double distance = 300.0;//300.0;//100.0;//200.0;
+  
+  bool disableDl = false;
+  bool disableUl = false;
 
 
-  Config::SetDefault ("ns3::UdpClient::Interval", TimeValue (MilliSeconds (20)));
+  Config::SetDefault ("ns3::UdpClient::Interval", TimeValue (MilliSeconds (10)));//20
   Config::SetDefault ("ns3::UdpClient::MaxPackets", UintegerValue (1000000));
-  Config::SetDefault ("ns3::LteEnbRrc::SrsPeriodicity", UintegerValue(320));
+  // Config::SetDefault ("ns3::LteEnbRrc::SrsPeriodicity", UintegerValue(320)); comment running const vel mobility
   Config::SetDefault ("ns3::LteHelper::UseIdealRrc", BooleanValue (false));
 
   // Command line arguments, putting data from cmd
@@ -160,13 +165,20 @@ main (int argc, char *argv[])
   cmd.AddValue ("numberOfUes", "Number of UEs", numberOfUes);
   cmd.AddValue ("numberOfEnbs", "Number of eNodeBs", numberOfEnbs);
   cmd.AddValue ("simTime", "Total duration of the simulation (in seconds)", simTime);
+  cmd.AddValue ("disableDl", "Disable downlink data flows", disableDl);
+  cmd.AddValue ("disableUl", "Disable uplink data flows", disableUl);
   cmd.Parse (argc, argv);
 
   Ptr<LteHelper> lteHelper = CreateObject<LteHelper> ();
   Ptr<PointToPointEpcHelper> epcHelper = CreateObject<PointToPointEpcHelper> ();
   lteHelper->SetEpcHelper (epcHelper);
-  lteHelper->SetSchedulerType ("ns3::RrFfMacScheduler");
-  lteHelper->SetHandoverAlgorithmType ("ns3::NoOpHandoverAlgorithm"); // disable automatic handover
+  // lteHelper->SetSchedulerType ("ns3::RrFfMacScheduler");
+  lteHelper->SetSchedulerType ("ns3::FdMtFfMacScheduler");    // FD-MT scheduler
+  // lteHelper->SetHandoverAlgorithmType ("ns3::NoOpHandoverAlgorithm"); // disable automatic handover
+  // For Automatic Handover
+  lteHelper->SetHandoverAlgorithmType ("ns3::A2A4RsrqHandoverAlgorithm");
+  lteHelper->SetHandoverAlgorithmAttribute ("ServingCellThreshold",UintegerValue (30));
+  lteHelper->SetHandoverAlgorithmAttribute ("NeighbourCellOffset",UintegerValue (1));
 
 
   Ptr<Node> pgw = epcHelper->GetPgwNode ();
@@ -200,8 +212,34 @@ main (int argc, char *argv[])
   enbNodes.Create (numberOfEnbs);
   ueNodes.Create (numberOfUes);
 
-  // Install Mobility Model
-  MobilityHelper mobility;
+  // Install Mobility Model for eNodeB
+  /////////////////////////////////////////////////////////////////
+  Ptr<ListPositionAllocator> positionAlloc = CreateObject<ListPositionAllocator> ();
+  for (uint16_t i = 0; i < numberOfEnbs; i++)
+    {
+      positionAlloc->Add (Vector (distance * 2 * i - distance, 0, 0));//Vector (distance * 2 * i - distance, 0, 0)
+    }
+
+  // Ptr<ListPositionAllocator> positionAlloc = CreateObject<ListPositionAllocator> ();
+  // for (uint16_t i = 0; i < numberOfEnbs; i++)
+  //   if (i<2)
+  //     {
+  //       positionAlloc->Add (Vector (distance * 2 * i - distance, 0, 0));//Vector (distance * 2 * i - distance, 0, 0)
+  //     }
+  //   else
+  //     { int j=0;
+  //       positionAlloc->Add (Vector (0, distance * 2 * j - distance, 0));//Vector (distance * 2 * i - distance, 0, 0)
+  //       j=j+1;
+  //     }  
+
+  MobilityHelper mobility;  
+  mobility.SetMobilityModel ("ns3::ConstantPositionMobilityModel");
+  mobility.SetPositionAllocator (positionAlloc);
+  mobility.Install (enbNodes);
+
+
+  // Install Mobility Model for UE
+  
   mobility.SetPositionAllocator ("ns3::GridPositionAllocator",
                                  "MinX", DoubleValue (10.0),
                                  "MinY", DoubleValue (10.0),
@@ -209,12 +247,52 @@ main (int argc, char *argv[])
                                  "DeltaY", DoubleValue (10.0),
                                  "GridWidth", UintegerValue (5),
                                  "LayoutType", StringValue ("RowFirst"));
+  // mobility.SetPositionAllocator ("ns3::GridPositionAllocator",
+  //                                "MinX", DoubleValue (-150.0),
+  //                                "MinY", DoubleValue (-50.0),
+  //                                "DeltaX", DoubleValue (100.0),
+  //                                "DeltaY", DoubleValue (100.0),
+  //                                "GridWidth", UintegerValue (4),
+  //                                "LayoutType", StringValue ("RowFirst"));
+  ////////////////////////////////// Prasad ############################################### 
+  //////////////////////////// Randomwalk model ##############################
   mobility.SetMobilityModel ("ns3::RandomWalk2dMobilityModel",
-                             "Bounds", RectangleValue (Rectangle (-500, 500, -250, 500)));
-  mobility.Install (ueNodes);
-  mobility.SetMobilityModel ("ns3::ConstantPositionMobilityModel");
-  mobility.Install (enbNodes);
+                             "Mode", StringValue ("Time"),
+                            //  "Time", StringValue ("0.1s"),
+                            //  "Speed", StringValue ("ns3::ConstantRandomVariable[Constant=1.0]"),
+                             "Bounds", RectangleValue (Rectangle (-500, 500, -250, 500))); //#(-500, 500, -250, 500)
 
+   
+  ////////////////////////////////////////////////////////////
+  
+  
+  
+  ////////// Prasaad ////////////////////////////////////////////////
+  // iterate our eNodeB nodes and print their position.
+  for (NodeContainer::Iterator j = enbNodes.Begin ();
+       j != enbNodes.End (); ++j)
+    {
+      Ptr<Node> object = *j;
+      Ptr<MobilityModel> position = object->GetObject<MobilityModel> ();
+      NS_ASSERT (position != 0);
+      Vector pos = position->GetPosition ();
+      std::cout << "eNodeB location:" <<"x=" << pos.x << ", y=" << pos.y << ", z=" << pos.z << std::endl;
+    }
+
+  // iterate our UE nodes and print their position.
+  for (NodeContainer::Iterator j = ueNodes.Begin ();
+       j != ueNodes.End (); ++j)
+    {
+      Ptr<Node> object = *j;
+      Ptr<MobilityModel> position = object->GetObject<MobilityModel> ();
+      NS_ASSERT (position != 0);
+      Vector pos = position->GetPosition ();
+      // Vector vel = position->GetVelocity ();
+
+      std::cout << "UE Position:" <<"x=" << pos.x << ", y=" << pos.y << ", z=" << pos.z << std::endl;
+      
+    }  
+  ///////////////////////////////////////////////////////////////////
 
   // Install LTE Devices in eNB and UEs
   NetDeviceContainer enbLteDevs = lteHelper->InstallEnbDevice (enbNodes);
@@ -226,12 +304,12 @@ main (int argc, char *argv[])
   ueIpIfaces = epcHelper->AssignUeIpv4Address (NetDeviceContainer (ueLteDevs));
 
   // Attach all UEs to the first eNodeB
-  // for (uint16_t i = 0; i < numberOfUes; i++)
-  //   {
-  //     lteHelper->Attach (ueLteDevs.Get (i), enbLteDevs.Get (0));
-  //   }
+  for (uint16_t i = 0; i < numberOfUes; i++)
+    {
+      lteHelper->Attach (ueLteDevs.Get (i), enbLteDevs.Get (0));
+    }
 
-  lteHelper->AttachToClosestEnb (ueLteDevs, enbLteDevs);
+  // lteHelper->AttachToClosestEnb (ueLteDevs, enbLteDevs);
 
 
   NS_LOG_LOGIC ("setting up applications");
@@ -241,68 +319,132 @@ main (int argc, char *argv[])
   uint16_t ulPort = 20000;
 
 
+ // trace file, for data extraction
+  AsciiTraceHelper ascii;
+  p2ph.EnableAsciiAll (ascii.CreateFileStream ("tracehandover.tr"));
+  // MobilityHelper::EnableAscii (ascii.CreateFileStream ("lena-x2-handover.mob"), ueNodes); //correct for a set of nodes
+  mobility.EnableAscii (ascii.CreateFileStream ("lena-x2-handover.mob"), ueNodes); //correct for a set of nodes
+
   Ptr<UniformRandomVariable> startTimeSeconds = CreateObject<UniformRandomVariable> ();
-  startTimeSeconds->SetAttribute ("Min", DoubleValue (0));
-  startTimeSeconds->SetAttribute ("Max", DoubleValue (0.010));
-
-
+  startTimeSeconds->SetAttribute ("Min", DoubleValue (0.05));
+  startTimeSeconds->SetAttribute ("Max", DoubleValue (0.06));
   for (uint32_t u = 0; u < numberOfUes; ++u)
     {
       Ptr<Node> ue = ueNodes.Get (u);
       // Set the default gateway for the UE
       Ptr<Ipv4StaticRouting> ueStaticRouting = ipv4RoutingHelper.GetStaticRouting (ue->GetObject<Ipv4> ());
       ueStaticRouting->SetDefaultRoute (epcHelper->GetUeDefaultGatewayAddress (), 1);
-        {
-          ++dlPort;
-          ++ulPort;
 
+      for (uint32_t b = 0; b < numBearersPerUe; ++b)
+        {
           ApplicationContainer clientApps;
           ApplicationContainer serverApps;
-
-          NS_LOG_LOGIC ("installing UDP DL app for UE " << u);
-          UdpClientHelper dlClientHelper (ueIpIfaces.GetAddress (u), dlPort);
-          clientApps.Add (dlClientHelper.Install (remoteHost));
-          PacketSinkHelper dlPacketSinkHelper ("ns3::UdpSocketFactory",
-                                               InetSocketAddress (Ipv4Address::GetAny (), dlPort));
-          serverApps.Add (dlPacketSinkHelper.Install (ue));
-
-          NS_LOG_LOGIC ("installing UDP UL app for UE " << u);
-          UdpClientHelper ulClientHelper (remoteHostAddr, ulPort);
-          clientApps.Add (ulClientHelper.Install (ue));
-          PacketSinkHelper ulPacketSinkHelper ("ns3::UdpSocketFactory",
-                                               InetSocketAddress (Ipv4Address::GetAny (), ulPort));
-          serverApps.Add (ulPacketSinkHelper.Install (remoteHost));
-
           Ptr<EpcTft> tft = Create<EpcTft> ();
-          EpcTft::PacketFilter dlpf;
-          dlpf.localPortStart = dlPort;
-          dlpf.localPortEnd = dlPort;
-          tft->Add (dlpf);
-          EpcTft::PacketFilter ulpf;
-          ulpf.remotePortStart = ulPort;
-          ulpf.remotePortEnd = ulPort;
-          tft->Add (ulpf);
-          EpsBearer bearer (EpsBearer::GBR_CONV_VOICE);
+
+          if (!disableDl)
+            {
+              ++dlPort;
+
+              NS_LOG_LOGIC ("installing UDP DL app for UE " << u);
+              UdpClientHelper dlClientHelper (ueIpIfaces.GetAddress (u), dlPort);
+              clientApps.Add (dlClientHelper.Install (remoteHost));
+              PacketSinkHelper dlPacketSinkHelper ("ns3::UdpSocketFactory",
+                                                   InetSocketAddress (Ipv4Address::GetAny (), dlPort));
+              serverApps.Add (dlPacketSinkHelper.Install (ue));
+
+              EpcTft::PacketFilter dlpf;
+              dlpf.localPortStart = dlPort;
+              dlpf.localPortEnd = dlPort;
+              tft->Add (dlpf);
+            }
+
+          if (!disableUl)
+            {
+              ++ulPort;
+
+              NS_LOG_LOGIC ("installing UDP UL app for UE " << u);
+              UdpClientHelper ulClientHelper (remoteHostAddr, ulPort);
+              clientApps.Add (ulClientHelper.Install (ue));
+              PacketSinkHelper ulPacketSinkHelper ("ns3::UdpSocketFactory",
+                                                   InetSocketAddress (Ipv4Address::GetAny (), ulPort));
+              serverApps.Add (ulPacketSinkHelper.Install (remoteHost));
+
+              EpcTft::PacketFilter ulpf;
+              ulpf.remotePortStart = ulPort;
+              ulpf.remotePortEnd = ulPort;
+              tft->Add (ulpf);
+            }
+
+          EpsBearer bearer (EpsBearer::NGBR_VIDEO_TCP_DEFAULT);
           lteHelper->ActivateDedicatedEpsBearer (ueLteDevs.Get (u), bearer, tft);
 
           Time startTime = Seconds (startTimeSeconds->GetValue ());
           serverApps.Start (startTime);
           clientApps.Start (startTime);
+          clientApps.Stop (simTime);
 
-        }
+        } // end for b
     }
+  
+  // for (uint32_t u = 0; u < numberOfUes; ++u)
+  //   {
+  //     Ptr<Node> ue = ueNodes.Get (u);
+  //     // Set the default gateway for the UE
+  //     Ptr<Ipv4StaticRouting> ueStaticRouting = ipv4RoutingHelper.GetStaticRouting (ue->GetObject<Ipv4> ());
+  //     ueStaticRouting->SetDefaultRoute (epcHelper->GetUeDefaultGatewayAddress (), 1);
+  //       {
+  //         ++dlPort;
+  //         ++ulPort;
+
+  //         ApplicationContainer clientApps;
+  //         ApplicationContainer serverApps;
+
+  //         NS_LOG_LOGIC ("installing UDP DL app for UE " << u);
+  //         UdpClientHelper dlClientHelper (ueIpIfaces.GetAddress (u), dlPort);
+  //         clientApps.Add (dlClientHelper.Install (remoteHost));
+  //         PacketSinkHelper dlPacketSinkHelper ("ns3::UdpSocketFactory",
+  //                                              InetSocketAddress (Ipv4Address::GetAny (), dlPort));
+  //         serverApps.Add (dlPacketSinkHelper.Install (ue));
+
+  //         NS_LOG_LOGIC ("installing UDP UL app for UE " << u);
+  //         UdpClientHelper ulClientHelper (remoteHostAddr, ulPort);
+  //         clientApps.Add (ulClientHelper.Install (ue));
+  //         PacketSinkHelper ulPacketSinkHelper ("ns3::UdpSocketFactory",
+  //                                              InetSocketAddress (Ipv4Address::GetAny (), ulPort));
+  //         serverApps.Add (ulPacketSinkHelper.Install (remoteHost));
+
+  //         Ptr<EpcTft> tft = Create<EpcTft> ();
+  //         EpcTft::PacketFilter dlpf;
+  //         dlpf.localPortStart = dlPort;
+  //         dlpf.localPortEnd = dlPort;
+  //         tft->Add (dlpf);
+  //         EpcTft::PacketFilter ulpf;
+  //         ulpf.remotePortStart = ulPort;
+  //         ulpf.remotePortEnd = ulPort;
+  //         tft->Add (ulpf);
+  //         EpsBearer bearer (EpsBearer::GBR_CONV_VOICE);
+  //         lteHelper->ActivateDedicatedEpsBearer (ueLteDevs.Get (u), bearer, tft);
+
+  //         Time startTime = Seconds (startTimeSeconds->GetValue ());
+  //         serverApps.Start (startTime);
+  //         clientApps.Start (startTime);
+
+  //       }
+  //   }
 
 
   // Add X2 inteface
     lteHelper->AddX2Interface (enbNodes);
+    // X2-based Handover
+    // lteHelper->HandoverRequest (MilliSeconds (300), ueLteDevs.Get (0), enbLteDevs.Get (0), enbLteDevs.Get (1));
     lteHelper->EnablePhyTraces ();
     lteHelper->EnableMacTraces ();
     lteHelper->EnableRlcTraces ();
     lteHelper->EnablePdcpTraces ();
     Ptr<RadioBearerStatsCalculator> rlcStats = lteHelper->GetRlcStats ();
-    rlcStats->SetAttribute ("EpochDuration", TimeValue (Seconds (0.02)));
+    rlcStats->SetAttribute ("EpochDuration", TimeValue (Seconds (0.05)));
     Ptr<RadioBearerStatsCalculator> pdcpStats = lteHelper->GetPdcpStats ();
-    pdcpStats->SetAttribute ("EpochDuration", TimeValue (Seconds (0.02)));
+    pdcpStats->SetAttribute ("EpochDuration", TimeValue (Seconds (0.05)));
 
 
 
@@ -321,54 +463,57 @@ main (int argc, char *argv[])
                    MakeCallback (&NotifyHandoverEndOkUe));
 
 
-    Simulator::Stop (Seconds (simTime));
+    // Simulator::Stop (Seconds (simTime));
+    Simulator::Stop (simTime + MilliSeconds (20));
+    Simulator::Run ();
 
-   // Generate xml file for visual display of scerario in NetAnim
-   AnimationInterface anim ("lte2.xml");
-   anim.SetMaxPktsPerTraceFile (100000000000);
-   anim.SetMobilityPollInterval(Seconds(1));
+  //  // Generate xml file for visual display of scerario in NetAnim
+  //  AnimationInterface anim ("lte2.xml");
+  //  anim.SetMaxPktsPerTraceFile (100000000000);
+  //  anim.SetMobilityPollInterval(Seconds(1));
 
-    std::string fileNameWithNoExtension = "FlowVSThroughput_";
-    std::string graphicsFileName        = fileNameWithNoExtension + ".png";
-    std::string plotFileName            = fileNameWithNoExtension + ".plt";
-    std::string plotTitle               = "Flow vs Throughput";
-    std::string dataTitle               = "Throughput";
+  //   std::string fileNameWithNoExtension = "FlowVSThroughput_";
+  //   std::string graphicsFileName        = fileNameWithNoExtension + ".png";
+  //   std::string plotFileName            = fileNameWithNoExtension + ".plt";
+  //   std::string plotTitle               = "Flow vs Throughput";
+  //   std::string dataTitle               = "Throughput";
 
-    // Instantiate the plot and set its title.
-    Gnuplot gnuplot (graphicsFileName);
-    gnuplot.SetTitle (plotTitle);
+  //   // Instantiate the plot and set its title.
+  //   Gnuplot gnuplot (graphicsFileName);
+  //   gnuplot.SetTitle (plotTitle);
 
-    // Make the graphics file, which the plot file will be when it is used with Gnuplot, be a PNG file.
-    gnuplot.SetTerminal ("png");
+  //   // Make the graphics file, which the plot file will be when it is used with Gnuplot, be a PNG file.
+  //   gnuplot.SetTerminal ("png");
 
-    // Set the labels for each axis.
-    gnuplot.SetLegend ("Flow", "Throughput");
+  //   // Set the labels for each axis.
+  //   gnuplot.SetLegend ("Flow", "Throughput");
 
-    Gnuplot2dDataset dataset;
-    dataset.SetTitle (dataTitle);
-    dataset.SetStyle (Gnuplot2dDataset::LINES_POINTS);
+  //   Gnuplot2dDataset dataset;
+  //   dataset.SetTitle (dataTitle);
+  //   dataset.SetStyle (Gnuplot2dDataset::LINES_POINTS);
 
-   //flowMonitor declaration
-   FlowMonitorHelper fmHelper;
-   Ptr<FlowMonitor> allMon = fmHelper.InstallAll();
-   allMon->CheckForLostPackets ();
-   // call the flow monitor function
-   ThroughputMonitor(&fmHelper, allMon, dataset);
+  //  //flowMonitor declaration
+  //  FlowMonitorHelper fmHelper;
+  //  Ptr<FlowMonitor> allMon = fmHelper.InstallAll();
+  //  allMon->CheckForLostPackets ();
+  //  // call the flow monitor function
+  //  ThroughputMonitor(&fmHelper, allMon, dataset);
 
-   // trace file, for data extraction
-   AsciiTraceHelper ascii;
-   p2ph.EnableAsciiAll (ascii.CreateFileStream ("tracehandover.tr"));
+  //  // trace file, for data extraction
+  //  AsciiTraceHelper ascii;
+  //  p2ph.EnableAsciiAll (ascii.CreateFileStream ("tracehandover.tr"));
+  //  MobilityHelper::EnableAscii (ascii.CreateFileStream ("lena-x2-handover.mob"), ueNodes); //correct for a set of nodes
 
-   Simulator::Run ();
+  //  Simulator::Run ();
 
-   //Gnuplot ...continued
-   gnuplot.AddDataset (dataset);
-   // Open the plot file.
-   std::ofstream plotFile (plotFileName.c_str());
-   // Write the plot file.
-   gnuplot.GenerateOutput (plotFile);
-   // Close the plot file.
-   plotFile.close ();
+  //  //Gnuplot ...continued
+  //  gnuplot.AddDataset (dataset);
+  //  // Open the plot file.
+  //  std::ofstream plotFile (plotFileName.c_str());
+  //  // Write the plot file.
+  //  gnuplot.GenerateOutput (plotFile);
+  //  // Close the plot file.
+  //  plotFile.close ();
 
    Simulator::Destroy ();
    return 0;
