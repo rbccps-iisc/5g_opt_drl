@@ -262,7 +262,7 @@ main (int argc, char *argv[])
                             //  "Speed", StringValue ("ns3::ConstantRandomVariable[Constant=1.0]"),
                              "Bounds", RectangleValue (Rectangle (-500, 500, -250, 500))); //#(-500, 500, -250, 500)
 
-   
+  mobility.Install (ueNodes); 
   ////////////////////////////////////////////////////////////
   
   
@@ -289,8 +289,7 @@ main (int argc, char *argv[])
       Vector pos = position->GetPosition ();
       // Vector vel = position->GetVelocity ();
 
-      std::cout << "UE Position:" <<"x=" << pos.x << ", y=" << pos.y << ", z=" << pos.z << std::endl;
-      
+      std::cout << "UE Position:" <<"x=" << pos.x << ", y=" << pos.y << ", z=" << pos.z << std::endl;      
     }  
   ///////////////////////////////////////////////////////////////////
 
