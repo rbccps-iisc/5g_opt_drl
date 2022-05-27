@@ -17,3 +17,5 @@ $ cd network/ns-allinone-3.33/ns-3.33
 $ ./waf --run lte_config    
 ```
 
+####Integrating ns3-gym with ray\[rllib\]
+Please refer the corresponding [README.md](ray-de/examples/ns3-gym-example) at ray-de/examples/ns3-gym-example

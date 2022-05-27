@@ -1,0 +1,23 @@
+version: "3.9"
+
+services:
+  
+  ray-de-head:
+    image: "ray-de:latest"
+    shm_size: "5gb"
+    tty: true
+    networks:
+      - ray-de
+  
+  ray-de-worker:
+    image: "ray-de:latest"
+    scale: 2
+    shm_size: "5gb"
+    tty: true
+    networks:
+      - ray-de
+
+networks:
+
+  ray-de:
+    driver: bridge

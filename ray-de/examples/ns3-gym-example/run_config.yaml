@@ -1,0 +1,28 @@
+ray_config:
+  num_cpus: 6
+  num_gpus: 0
+  ignore_reinit_error: true
+  logging_level: info
+
+agent_config:
+  agent: ppo.PPOTrainer
+  framework: torch
+  # NOTE: num_workers*num_cpus_per_worker should not exceed num_gpus 
+  num_workers: 3
+  num_cpus_per_worker: 2
+  ignore_worker_failures: true
+  disable_env_checking: true
+  model:
+    fcnet_hiddens: [256, 256]
+    fcnet_activation: tanh
+  rollout_fragment_length: 2
+  train_batch_size: 6
+  sgd_minibatch_size: 4
+  num_sgd_iter: 2
+  # min_time_s_per_reporting: 1
+
+other_config:
+  num_train_iter: 2000
+  save_dir: ray_outputs
+  # saving and reporting frequency in terms of training iterations
+  save_freq: 100
