@@ -1,0 +1,17 @@
+<configuration>
+  <input>
+    <net-file value="grid.net.xml"/>
+    <route-files value="grid.rou.xml"/>
+    <additional-files value="rerouter_grid.add.xml"/>
+  </input>
+  <random_number>
+       <random value='true'/>
+</random_number>
+  <time>
+    <begin value="0"/>
+    <end value="210"/>
+  </time>
+   <output>
+     <fcd-output value="grid.output.xml"/>
+   </output>
+</configuration>

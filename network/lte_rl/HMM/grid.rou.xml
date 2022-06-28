@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2022-06-22 22:40:36 by Eclipse SUMO jtrrouter Version 1.13.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/jtrrouterConfiguration.xsd">
+
+    <input>
+        <net-file value="grid.net.xml"/>
+        <route-files value="flows.xml"/>
+    </input>
+
+    <output>
+        <output-file value="grid.rou.xml"/>
+    </output>
+
+    <processing>
+        <no-internal-links value="true"/>
+        <accept-all-destinations value="true"/>
+    </processing>
+
+    <time>
+        <begin value="0"/>
+        <end value="210"/>
+    </time>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vehicle id="0.0" depart="0.00">
+        <route edges="B2B1 B1B2 B2A2 A2A1 A1B1 B1C1 C1C0 C0B0 B0B1 B1A1 A1A0 A0B0 B0A0 A0A1"/>
+    </vehicle>
+</routes>
