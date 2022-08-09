@@ -19,11 +19,11 @@ The required ray\[rllib\] wrapper and helper files provided here are:
 
 To run this example, copy this directory inside the ns3-gym scratch directory:
 ```
-cp -r ../ns3-gym-example $NS3_INSTALLED_DIR/scratch/ray-rllib-ns3-gym-example
-cd $NS3_INSTALLED_DIR/scratch/ray-rllib-ns3-gym-example
+cp -r ../interference-pattern $NS3_INSTALLED_DIR/scratch/interference-pattern
+cd $NS3_INSTALLED_DIR/scratch/interference-pattern
 ```
 
-After copying and moving in the `ray-rllib-ns3-gym-example` directory execute the following command to update the sample_batch.py module of the  ray\[rllib\] package (version 1.12.1 as mentioned in the requirements.txt):
+After copying and moving in the `interference-pattern` directory execute the following command to update the sample_batch.py module of the  ray\[rllib\] package (version 1.12.1 as mentioned in the requirements.txt):
 
 ```
 python3 update-ray-core.py

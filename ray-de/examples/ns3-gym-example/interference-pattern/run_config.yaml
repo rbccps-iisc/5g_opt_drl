@@ -7,7 +7,7 @@ ray_config:
 agent_config:
   agent: ppo.PPOTrainer
   framework: torch
-  # NOTE: num_workers*num_cpus_per_worker should not exceed num_gpus 
+  # NOTE: num_workers*num_cpus_per_worker should not exceed num_cpus 
   num_workers: 3
   num_cpus_per_worker: 2
   ignore_worker_failures: true

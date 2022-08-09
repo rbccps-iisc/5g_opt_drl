@@ -1,0 +1,1912 @@
+Waf: Entering directory `/home/harold/Documents/installs/ns-3.35-orig/ns3-gym/build'
+Waf: Leaving directory `/home/harold/Documents/installs/ns-3.35-orig/ns3-gym/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (0.449s)
+/NodeList/5/DeviceList/0/LteUeRrc/ConnectionEstablished at 0.0202143 (sec) UE IMSI 1: connected to CellId 1 with RNTI 1
+/NodeList/6/DeviceList/0/LteUeRrc/ConnectionEstablished at 0.0202143 (sec) UE IMSI 2: connected to CellId 2 with RNTI 1
+/NodeList/3/DeviceList/0/LteEnbRrc/ConnectionEstablished at 0.0202143 (sec) eNB CellId 1: successful connection of UE with IMSI 1 RNTI 1
+/NodeList/4/DeviceList/0/LteEnbRrc/ConnectionEstablished at 0.0202143 (sec) eNB CellId 2: successful connection of UE with IMSI 2 RNTI 1
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 0.200001 (sec) eNB CellId 1 UE with IMSI 1 RNTI 1 measId 2 RSRP 66 RSRQ 31
+Time:
+0.200001 0 
+RSRP-RSRQ-ServingCellId State:
+66 62 31 23 1 
+0 0 0 0 0 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 0.200001 (sec) eNB CellId 2 UE with IMSI 2 RNTI 1 measId 2 RSRP 66 RSRQ 31
+Time:
+0.200001 0.200001 
+RSRP-RSRQ-ServingCellId State:
+66 62 31 23 1 
+62 66 23 31 2 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 0.680001 (sec) eNB CellId 1 UE with IMSI 1 RNTI 1 measId 2 RSRP 66 RSRQ 31
+Time:
+0.680001 0.200001 
+RSRP-RSRQ-ServingCellId State:
+66 62 31 23 1 
+62 66 23 31 2 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 0.680001 (sec) eNB CellId 2 UE with IMSI 2 RNTI 1 measId 2 RSRP 66 RSRQ 31
+Time:
+0.680001 0.680001 
+RSRP-RSRQ-ServingCellId State:
+66 62 31 23 1 
+62 66 23 31 2 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 1.16 (sec) eNB CellId 1 UE with IMSI 1 RNTI 1 measId 2 RSRP 66 RSRQ 31
+Time:
+1.16 0.680001 
+RSRP-RSRQ-ServingCellId State:
+66 62 31 23 1 
+62 66 23 31 2 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 1.16 (sec) eNB CellId 2 UE with IMSI 2 RNTI 1 measId 2 RSRP 66 RSRQ 31
+Time:
+1.16 1.16 
+RSRP-RSRQ-ServingCellId State:
+66 62 31 23 1 
+62 66 23 31 2 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 1.64 (sec) eNB CellId 1 UE with IMSI 1 RNTI 1 measId 2 RSRP 66 RSRQ 31
+Time:
+1.64 1.16 
+RSRP-RSRQ-ServingCellId State:
+66 62 31 23 1 
+62 66 23 31 2 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 1.64 (sec) eNB CellId 2 UE with IMSI 2 RNTI 1 measId 2 RSRP 66 RSRQ 31
+Time:
+1.64 1.64 
+RSRP-RSRQ-ServingCellId State:
+66 62 31 23 1 
+62 66 23 31 2 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 2.12 (sec) eNB CellId 1 UE with IMSI 1 RNTI 1 measId 2 RSRP 66 RSRQ 31
+Time:
+2.12 1.64 
+RSRP-RSRQ-ServingCellId State:
+66 62 31 23 1 
+62 66 23 31 2 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 2.12 (sec) eNB CellId 2 UE with IMSI 2 RNTI 1 measId 2 RSRP 66 RSRQ 31
+Time:
+2.12 2.12 
+RSRP-RSRQ-ServingCellId State:
+66 62 31 23 1 
+62 66 23 31 2 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 2.6 (sec) eNB CellId 1 UE with IMSI 1 RNTI 1 measId 2 RSRP 66 RSRQ 31
+Time:
+2.6 2.12 
+RSRP-RSRQ-ServingCellId State:
+66 62 31 22 1 
+62 66 23 31 2 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 2.6 (sec) eNB CellId 2 UE with IMSI 2 RNTI 1 measId 2 RSRP 66 RSRQ 31
+Time:
+2.6 2.6 
+RSRP-RSRQ-ServingCellId State:
+66 62 31 22 1 
+62 66 22 31 2 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 3.08 (sec) eNB CellId 1 UE with IMSI 1 RNTI 1 measId 2 RSRP 66 RSRQ 31
+Time:
+3.08 2.6 
+RSRP-RSRQ-ServingCellId State:
+66 62 31 22 1 
+62 66 22 31 2 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 3.08 (sec) eNB CellId 2 UE with IMSI 2 RNTI 1 measId 2 RSRP 66 RSRQ 31
+Time:
+3.08 3.08 
+RSRP-RSRQ-ServingCellId State:
+66 62 31 22 1 
+62 66 22 31 2 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 3.56 (sec) eNB CellId 1 UE with IMSI 1 RNTI 1 measId 2 RSRP 66 RSRQ 31
+Time:
+3.56 3.08 
+RSRP-RSRQ-ServingCellId State:
+66 62 31 22 1 
+62 66 22 31 2 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 3.56 (sec) eNB CellId 2 UE with IMSI 2 RNTI 1 measId 2 RSRP 66 RSRQ 31
+Time:
+3.56 3.56 
+RSRP-RSRQ-ServingCellId State:
+66 62 31 22 1 
+62 66 22 31 2 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 4.04 (sec) eNB CellId 1 UE with IMSI 1 RNTI 1 measId 2 RSRP 66 RSRQ 31
+Time:
+4.04 3.56 
+RSRP-RSRQ-ServingCellId State:
+66 62 31 22 1 
+62 66 22 31 2 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 4.04 (sec) eNB CellId 2 UE with IMSI 2 RNTI 1 measId 2 RSRP 66 RSRQ 31
+Time:
+4.04 4.04 
+RSRP-RSRQ-ServingCellId State:
+66 62 31 22 1 
+62 66 22 31 2 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 4.52 (sec) eNB CellId 1 UE with IMSI 1 RNTI 1 measId 2 RSRP 66 RSRQ 31
+Time:
+4.52 4.04 
+RSRP-RSRQ-ServingCellId State:
+66 62 31 22 1 
+62 66 22 31 2 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 4.52 (sec) eNB CellId 2 UE with IMSI 2 RNTI 1 measId 2 RSRP 66 RSRQ 31
+Time:
+4.52 4.52 
+RSRP-RSRQ-ServingCellId State:
+66 62 31 22 1 
+62 66 22 31 2 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 5 (sec) eNB CellId 1 UE with IMSI 1 RNTI 1 measId 2 RSRP 67 RSRQ 31
+Time:
+5 4.52 
+RSRP-RSRQ-ServingCellId State:
+67 62 31 22 1 
+62 66 22 31 2 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 5 (sec) eNB CellId 2 UE with IMSI 2 RNTI 1 measId 2 RSRP 67 RSRQ 31
+Time:
+5 5 
+RSRP-RSRQ-ServingCellId State:
+67 62 31 22 1 
+62 67 22 31 2 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 5.48 (sec) eNB CellId 1 UE with IMSI 1 RNTI 1 measId 2 RSRP 67 RSRQ 31
+Time:
+5.48 5 
+RSRP-RSRQ-ServingCellId State:
+67 63 31 22 1 
+62 67 22 31 2 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 5.48 (sec) eNB CellId 2 UE with IMSI 2 RNTI 1 measId 2 RSRP 67 RSRQ 31
+Time:
+5.48 5.48 
+RSRP-RSRQ-ServingCellId State:
+67 63 31 22 1 
+63 67 22 31 2 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 5.96 (sec) eNB CellId 1 UE with IMSI 1 RNTI 1 measId 2 RSRP 67 RSRQ 31
+Time:
+5.96 5.48 
+RSRP-RSRQ-ServingCellId State:
+67 63 31 22 1 
+63 67 22 31 2 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 5.96 (sec) eNB CellId 2 UE with IMSI 2 RNTI 1 measId 2 RSRP 67 RSRQ 31
+Time:
+5.96 5.96 
+RSRP-RSRQ-ServingCellId State:
+67 63 31 22 1 
+63 67 22 31 2 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 6.44 (sec) eNB CellId 1 UE with IMSI 1 RNTI 1 measId 2 RSRP 67 RSRQ 31
+Time:
+6.44 5.96 
+RSRP-RSRQ-ServingCellId State:
+67 63 31 22 1 
+63 67 22 31 2 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 6.44 (sec) eNB CellId 2 UE with IMSI 2 RNTI 1 measId 2 RSRP 67 RSRQ 31
+Time:
+6.44 6.44 
+RSRP-RSRQ-ServingCellId State:
+67 63 31 22 1 
+63 67 22 31 2 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 6.92 (sec) eNB CellId 1 UE with IMSI 1 RNTI 1 measId 2 RSRP 67 RSRQ 31
+Time:
+6.92 6.44 
+RSRP-RSRQ-ServingCellId State:
+67 63 31 22 1 
+63 67 22 31 2 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 6.92 (sec) eNB CellId 2 UE with IMSI 2 RNTI 1 measId 2 RSRP 67 RSRQ 31
+Time:
+6.92 6.92 
+RSRP-RSRQ-ServingCellId State:
+67 63 31 22 1 
+63 67 22 31 2 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 7.4 (sec) eNB CellId 1 UE with IMSI 1 RNTI 1 measId 2 RSRP 67 RSRQ 31
+Time:
+7.4 6.92 
+RSRP-RSRQ-ServingCellId State:
+67 63 31 22 1 
+63 67 22 31 2 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 7.4 (sec) eNB CellId 2 UE with IMSI 2 RNTI 1 measId 2 RSRP 67 RSRQ 31
+Time:
+7.4 7.4 
+RSRP-RSRQ-ServingCellId State:
+67 63 31 22 1 
+63 67 22 31 2 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 7.88 (sec) eNB CellId 1 UE with IMSI 1 RNTI 1 measId 2 RSRP 67 RSRQ 31
+Time:
+7.88 7.4 
+RSRP-RSRQ-ServingCellId State:
+67 63 31 22 1 
+63 67 22 31 2 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 7.88 (sec) eNB CellId 2 UE with IMSI 2 RNTI 1 measId 2 RSRP 67 RSRQ 31
+Time:
+7.88 7.88 
+RSRP-RSRQ-ServingCellId State:
+67 63 31 22 1 
+63 67 22 31 2 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 8.36 (sec) eNB CellId 1 UE with IMSI 1 RNTI 1 measId 2 RSRP 67 RSRQ 31
+Time:
+8.36 7.88 
+RSRP-RSRQ-ServingCellId State:
+67 63 31 22 1 
+63 67 22 31 2 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 8.36 (sec) eNB CellId 2 UE with IMSI 2 RNTI 1 measId 2 RSRP 67 RSRQ 31
+Time:
+8.36 8.36 
+RSRP-RSRQ-ServingCellId State:
+67 63 31 22 1 
+63 67 22 31 2 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 8.84 (sec) eNB CellId 1 UE with IMSI 1 RNTI 1 measId 2 RSRP 67 RSRQ 31
+Time:
+8.84 8.36 
+RSRP-RSRQ-ServingCellId State:
+67 63 31 22 1 
+63 67 22 31 2 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 8.84 (sec) eNB CellId 2 UE with IMSI 2 RNTI 1 measId 2 RSRP 67 RSRQ 31
+Time:
+8.84 8.84 
+RSRP-RSRQ-ServingCellId State:
+67 63 31 22 1 
+63 67 22 31 2 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 9.32 (sec) eNB CellId 1 UE with IMSI 1 RNTI 1 measId 2 RSRP 67 RSRQ 31
+Time:
+9.32 8.84 
+RSRP-RSRQ-ServingCellId State:
+67 63 31 22 1 
+63 67 22 31 2 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 9.32 (sec) eNB CellId 2 UE with IMSI 2 RNTI 1 measId 2 RSRP 67 RSRQ 31
+Time:
+9.32 9.32 
+RSRP-RSRQ-ServingCellId State:
+67 63 31 22 1 
+63 67 22 31 2 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 9.8 (sec) eNB CellId 1 UE with IMSI 1 RNTI 1 measId 2 RSRP 67 RSRQ 31
+Time:
+9.8 9.32 
+RSRP-RSRQ-ServingCellId State:
+67 63 31 22 1 
+63 67 22 31 2 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 9.8 (sec) eNB CellId 2 UE with IMSI 2 RNTI 1 measId 2 RSRP 67 RSRQ 31
+Time:
+9.8 9.8 
+RSRP-RSRQ-ServingCellId State:
+67 63 31 22 1 
+63 67 22 31 2 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 10.28 (sec) eNB CellId 1 UE with IMSI 1 RNTI 1 measId 2 RSRP 67 RSRQ 31
+Time:
+10.28 9.8 
+RSRP-RSRQ-ServingCellId State:
+67 63 31 22 1 
+63 67 22 31 2 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 10.28 (sec) eNB CellId 2 UE with IMSI 2 RNTI 1 measId 2 RSRP 67 RSRQ 31
+Time:
+10.28 10.28 
+RSRP-RSRQ-ServingCellId State:
+67 63 31 22 1 
+63 67 22 31 2 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 10.76 (sec) eNB CellId 1 UE with IMSI 1 RNTI 1 measId 2 RSRP 67 RSRQ 31
+Time:
+10.76 10.28 
+RSRP-RSRQ-ServingCellId State:
+67 63 31 22 1 
+63 67 22 31 2 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 10.76 (sec) eNB CellId 2 UE with IMSI 2 RNTI 1 measId 2 RSRP 67 RSRQ 31
+Time:
+10.76 10.76 
+RSRP-RSRQ-ServingCellId State:
+67 63 31 22 1 
+63 67 22 31 2 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 11.24 (sec) eNB CellId 1 UE with IMSI 1 RNTI 1 measId 2 RSRP 68 RSRQ 31
+Time:
+11.24 10.76 
+RSRP-RSRQ-ServingCellId State:
+68 63 31 22 1 
+63 67 22 31 2 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 11.24 (sec) eNB CellId 2 UE with IMSI 2 RNTI 1 measId 2 RSRP 68 RSRQ 31
+Time:
+11.24 11.24 
+RSRP-RSRQ-ServingCellId State:
+68 63 31 22 1 
+63 68 22 31 2 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 11.72 (sec) eNB CellId 1 UE with IMSI 1 RNTI 1 measId 2 RSRP 68 RSRQ 31
+Time:
+11.72 11.24 
+RSRP-RSRQ-ServingCellId State:
+68 63 31 22 1 
+63 68 22 31 2 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 11.72 (sec) eNB CellId 2 UE with IMSI 2 RNTI 1 measId 2 RSRP 68 RSRQ 31
+Time:
+11.72 11.72 
+RSRP-RSRQ-ServingCellId State:
+68 63 31 22 1 
+63 68 22 31 2 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 12.2 (sec) eNB CellId 1 UE with IMSI 1 RNTI 1 measId 2 RSRP 68 RSRQ 31
+Time:
+12.2 11.72 
+RSRP-RSRQ-ServingCellId State:
+68 64 31 22 1 
+63 68 22 31 2 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 12.2 (sec) eNB CellId 2 UE with IMSI 2 RNTI 1 measId 2 RSRP 68 RSRQ 31
+Time:
+12.2 12.2 
+RSRP-RSRQ-ServingCellId State:
+68 64 31 22 1 
+64 68 22 31 2 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 12.68 (sec) eNB CellId 1 UE with IMSI 1 RNTI 1 measId 2 RSRP 68 RSRQ 31
+Time:
+12.68 12.2 
+RSRP-RSRQ-ServingCellId State:
+68 64 31 22 1 
+64 68 22 31 2 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 12.68 (sec) eNB CellId 2 UE with IMSI 2 RNTI 1 measId 2 RSRP 68 RSRQ 31
+Time:
+12.68 12.68 
+RSRP-RSRQ-ServingCellId State:
+68 64 31 22 1 
+64 68 22 31 2 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 13.16 (sec) eNB CellId 1 UE with IMSI 1 RNTI 1 measId 2 RSRP 68 RSRQ 31
+Time:
+13.16 12.68 
+RSRP-RSRQ-ServingCellId State:
+68 64 31 22 1 
+64 68 22 31 2 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 13.16 (sec) eNB CellId 2 UE with IMSI 2 RNTI 1 measId 2 RSRP 68 RSRQ 31
+Time:
+13.16 13.16 
+RSRP-RSRQ-ServingCellId State:
+68 64 31 22 1 
+64 68 22 31 2 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 13.64 (sec) eNB CellId 1 UE with IMSI 1 RNTI 1 measId 2 RSRP 68 RSRQ 31
+Time:
+13.64 13.16 
+RSRP-RSRQ-ServingCellId State:
+68 64 31 22 1 
+64 68 22 31 2 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 13.64 (sec) eNB CellId 2 UE with IMSI 2 RNTI 1 measId 2 RSRP 68 RSRQ 31
+Time:
+13.64 13.64 
+RSRP-RSRQ-ServingCellId State:
+68 64 31 22 1 
+64 68 22 31 2 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 14.12 (sec) eNB CellId 1 UE with IMSI 1 RNTI 1 measId 2 RSRP 68 RSRQ 31
+Time:
+14.12 13.64 
+RSRP-RSRQ-ServingCellId State:
+68 64 31 22 1 
+64 68 22 31 2 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 14.12 (sec) eNB CellId 2 UE with IMSI 2 RNTI 1 measId 2 RSRP 68 RSRQ 31
+Time:
+14.12 14.12 
+RSRP-RSRQ-ServingCellId State:
+68 64 31 22 1 
+64 68 22 31 2 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 14.6 (sec) eNB CellId 1 UE with IMSI 1 RNTI 1 measId 2 RSRP 68 RSRQ 31
+Time:
+14.6 14.12 
+RSRP-RSRQ-ServingCellId State:
+68 64 31 22 1 
+64 68 22 31 2 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 14.6 (sec) eNB CellId 2 UE with IMSI 2 RNTI 1 measId 2 RSRP 68 RSRQ 31
+Time:
+14.6 14.6 
+RSRP-RSRQ-ServingCellId State:
+68 64 31 22 1 
+64 68 22 31 2 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 15.08 (sec) eNB CellId 1 UE with IMSI 1 RNTI 1 measId 2 RSRP 68 RSRQ 31
+Time:
+15.08 14.6 
+RSRP-RSRQ-ServingCellId State:
+68 64 31 22 1 
+64 68 22 31 2 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 15.08 (sec) eNB CellId 2 UE with IMSI 2 RNTI 1 measId 2 RSRP 68 RSRQ 31
+Time:
+15.08 15.08 
+RSRP-RSRQ-ServingCellId State:
+68 64 31 22 1 
+64 68 22 31 2 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 15.56 (sec) eNB CellId 1 UE with IMSI 1 RNTI 1 measId 2 RSRP 68 RSRQ 31
+Time:
+15.56 15.08 
+RSRP-RSRQ-ServingCellId State:
+68 64 31 22 1 
+64 68 22 31 2 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 15.56 (sec) eNB CellId 2 UE with IMSI 2 RNTI 1 measId 2 RSRP 68 RSRQ 31
+Time:
+15.56 15.56 
+RSRP-RSRQ-ServingCellId State:
+68 64 31 22 1 
+64 68 22 31 2 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 16.04 (sec) eNB CellId 1 UE with IMSI 1 RNTI 1 measId 2 RSRP 68 RSRQ 31
+Time:
+16.04 15.56 
+RSRP-RSRQ-ServingCellId State:
+68 64 31 23 1 
+64 68 22 31 2 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 16.04 (sec) eNB CellId 2 UE with IMSI 2 RNTI 1 measId 2 RSRP 68 RSRQ 31
+Time:
+16.04 16.04 
+RSRP-RSRQ-ServingCellId State:
+68 64 31 23 1 
+64 68 23 31 2 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 16.52 (sec) eNB CellId 1 UE with IMSI 1 RNTI 1 measId 2 RSRP 68 RSRQ 31
+Time:
+16.52 16.04 
+RSRP-RSRQ-ServingCellId State:
+68 64 31 23 1 
+64 68 23 31 2 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 16.52 (sec) eNB CellId 2 UE with IMSI 2 RNTI 1 measId 2 RSRP 68 RSRQ 31
+Time:
+16.52 16.52 
+RSRP-RSRQ-ServingCellId State:
+68 64 31 23 1 
+64 68 23 31 2 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 17 (sec) eNB CellId 1 UE with IMSI 1 RNTI 1 measId 2 RSRP 68 RSRQ 31
+Time:
+17 16.52 
+RSRP-RSRQ-ServingCellId State:
+68 64 31 23 1 
+64 68 23 31 2 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 17 (sec) eNB CellId 2 UE with IMSI 2 RNTI 1 measId 2 RSRP 68 RSRQ 31
+Time:
+17 17 
+RSRP-RSRQ-ServingCellId State:
+68 64 31 23 1 
+64 68 23 31 2 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 17.48 (sec) eNB CellId 1 UE with IMSI 1 RNTI 1 measId 2 RSRP 68 RSRQ 31
+Time:
+17.48 17 
+RSRP-RSRQ-ServingCellId State:
+68 64 31 23 1 
+64 68 23 31 2 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 17.48 (sec) eNB CellId 2 UE with IMSI 2 RNTI 1 measId 2 RSRP 68 RSRQ 31
+Time:
+17.48 17.48 
+RSRP-RSRQ-ServingCellId State:
+68 64 31 23 1 
+64 68 23 31 2 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 17.96 (sec) eNB CellId 1 UE with IMSI 1 RNTI 1 measId 2 RSRP 68 RSRQ 31
+Time:
+17.96 17.48 
+RSRP-RSRQ-ServingCellId State:
+68 64 31 23 1 
+64 68 23 31 2 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 17.96 (sec) eNB CellId 2 UE with IMSI 2 RNTI 1 measId 2 RSRP 68 RSRQ 31
+Time:
+17.96 17.96 
+RSRP-RSRQ-ServingCellId State:
+68 64 31 23 1 
+64 68 23 31 2 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 18.44 (sec) eNB CellId 1 UE with IMSI 1 RNTI 1 measId 2 RSRP 68 RSRQ 30
+Time:
+18.44 17.96 
+RSRP-RSRQ-ServingCellId State:
+68 65 30 23 1 
+64 68 23 31 2 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 18.44 (sec) eNB CellId 2 UE with IMSI 2 RNTI 1 measId 2 RSRP 68 RSRQ 30
+Time:
+18.44 18.44 
+RSRP-RSRQ-ServingCellId State:
+68 65 30 23 1 
+65 68 23 30 2 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 18.92 (sec) eNB CellId 1 UE with IMSI 1 RNTI 1 measId 2 RSRP 68 RSRQ 30
+Time:
+18.92 18.44 
+RSRP-RSRQ-ServingCellId State:
+68 65 30 23 1 
+65 68 23 30 2 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 18.92 (sec) eNB CellId 2 UE with IMSI 2 RNTI 1 measId 2 RSRP 68 RSRQ 30
+Time:
+18.92 18.92 
+RSRP-RSRQ-ServingCellId State:
+68 65 30 23 1 
+65 68 23 30 2 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 19.4 (sec) eNB CellId 1 UE with IMSI 1 RNTI 1 measId 2 RSRP 69 RSRQ 30
+Time:
+19.4 18.92 
+RSRP-RSRQ-ServingCellId State:
+69 65 30 23 1 
+65 68 23 30 2 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 19.4 (sec) eNB CellId 2 UE with IMSI 2 RNTI 1 measId 2 RSRP 69 RSRQ 30
+Time:
+19.4 19.4 
+RSRP-RSRQ-ServingCellId State:
+69 65 30 23 1 
+65 69 23 30 2 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 19.88 (sec) eNB CellId 1 UE with IMSI 1 RNTI 1 measId 2 RSRP 69 RSRQ 30
+Time:
+19.88 19.4 
+RSRP-RSRQ-ServingCellId State:
+69 65 30 23 1 
+65 69 23 30 2 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 19.88 (sec) eNB CellId 2 UE with IMSI 2 RNTI 1 measId 2 RSRP 69 RSRQ 30
+Time:
+19.88 19.88 
+RSRP-RSRQ-ServingCellId State:
+69 65 30 23 1 
+65 69 23 30 2 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 20.36 (sec) eNB CellId 1 UE with IMSI 1 RNTI 1 measId 2 RSRP 69 RSRQ 30
+Time:
+20.36 19.88 
+RSRP-RSRQ-ServingCellId State:
+69 65 30 23 1 
+65 69 23 30 2 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 20.36 (sec) eNB CellId 2 UE with IMSI 2 RNTI 1 measId 2 RSRP 69 RSRQ 30
+Time:
+20.36 20.36 
+RSRP-RSRQ-ServingCellId State:
+69 65 30 23 1 
+65 69 23 30 2 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 20.84 (sec) eNB CellId 1 UE with IMSI 1 RNTI 1 measId 2 RSRP 69 RSRQ 30
+Time:
+20.84 20.36 
+RSRP-RSRQ-ServingCellId State:
+69 65 30 23 1 
+65 69 23 30 2 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 20.84 (sec) eNB CellId 2 UE with IMSI 2 RNTI 1 measId 2 RSRP 69 RSRQ 30
+Time:
+20.84 20.84 
+RSRP-RSRQ-ServingCellId State:
+69 65 30 23 1 
+65 69 23 30 2 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 21.32 (sec) eNB CellId 1 UE with IMSI 1 RNTI 1 measId 2 RSRP 69 RSRQ 30
+Time:
+21.32 20.84 
+RSRP-RSRQ-ServingCellId State:
+69 65 30 23 1 
+65 69 23 30 2 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 21.32 (sec) eNB CellId 2 UE with IMSI 2 RNTI 1 measId 2 RSRP 69 RSRQ 30
+Time:
+21.32 21.32 
+RSRP-RSRQ-ServingCellId State:
+69 65 30 23 1 
+65 69 23 30 2 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 21.8 (sec) eNB CellId 1 UE with IMSI 1 RNTI 1 measId 2 RSRP 69 RSRQ 30
+Time:
+21.8 21.32 
+RSRP-RSRQ-ServingCellId State:
+69 65 30 23 1 
+65 69 23 30 2 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 21.8 (sec) eNB CellId 2 UE with IMSI 2 RNTI 1 measId 2 RSRP 69 RSRQ 30
+Time:
+21.8 21.8 
+RSRP-RSRQ-ServingCellId State:
+69 65 30 23 1 
+65 69 23 30 2 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 22.28 (sec) eNB CellId 1 UE with IMSI 1 RNTI 1 measId 2 RSRP 69 RSRQ 30
+Time:
+22.28 21.8 
+RSRP-RSRQ-ServingCellId State:
+69 65 30 23 1 
+65 69 23 30 2 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 22.28 (sec) eNB CellId 2 UE with IMSI 2 RNTI 1 measId 2 RSRP 69 RSRQ 30
+Time:
+22.28 22.28 
+RSRP-RSRQ-ServingCellId State:
+69 65 30 23 1 
+65 69 23 30 2 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 22.76 (sec) eNB CellId 1 UE with IMSI 1 RNTI 1 measId 2 RSRP 69 RSRQ 30
+Time:
+22.76 22.28 
+RSRP-RSRQ-ServingCellId State:
+69 65 30 23 1 
+65 69 23 30 2 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 22.76 (sec) eNB CellId 2 UE with IMSI 2 RNTI 1 measId 2 RSRP 69 RSRQ 30
+Time:
+22.76 22.76 
+RSRP-RSRQ-ServingCellId State:
+69 65 30 23 1 
+65 69 23 30 2 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 23.24 (sec) eNB CellId 1 UE with IMSI 1 RNTI 1 measId 2 RSRP 69 RSRQ 30
+Time:
+23.24 22.76 
+RSRP-RSRQ-ServingCellId State:
+69 65 30 23 1 
+65 69 23 30 2 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 23.24 (sec) eNB CellId 2 UE with IMSI 2 RNTI 1 measId 2 RSRP 69 RSRQ 30
+Time:
+23.24 23.24 
+RSRP-RSRQ-ServingCellId State:
+69 65 30 23 1 
+65 69 23 30 2 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 23.72 (sec) eNB CellId 1 UE with IMSI 1 RNTI 1 measId 2 RSRP 69 RSRQ 30
+Time:
+23.72 23.24 
+RSRP-RSRQ-ServingCellId State:
+69 65 30 24 1 
+65 69 23 30 2 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 23.72 (sec) eNB CellId 2 UE with IMSI 2 RNTI 1 measId 2 RSRP 69 RSRQ 30
+Time:
+23.72 23.72 
+RSRP-RSRQ-ServingCellId State:
+69 65 30 24 1 
+65 69 24 30 2 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 24.2 (sec) eNB CellId 1 UE with IMSI 1 RNTI 1 measId 2 RSRP 69 RSRQ 30
+Time:
+24.2 23.72 
+RSRP-RSRQ-ServingCellId State:
+69 66 30 24 1 
+65 69 24 30 2 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 24.2 (sec) eNB CellId 2 UE with IMSI 2 RNTI 1 measId 2 RSRP 69 RSRQ 30
+Time:
+24.2 24.2 
+RSRP-RSRQ-ServingCellId State:
+69 66 30 24 1 
+66 69 24 30 2 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 24.68 (sec) eNB CellId 1 UE with IMSI 1 RNTI 1 measId 2 RSRP 69 RSRQ 30
+Time:
+24.68 24.2 
+RSRP-RSRQ-ServingCellId State:
+69 66 30 24 1 
+66 69 24 30 2 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 24.68 (sec) eNB CellId 2 UE with IMSI 2 RNTI 1 measId 2 RSRP 69 RSRQ 30
+Time:
+24.68 24.68 
+RSRP-RSRQ-ServingCellId State:
+69 66 30 24 1 
+66 69 24 30 2 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 25.16 (sec) eNB CellId 1 UE with IMSI 1 RNTI 1 measId 2 RSRP 69 RSRQ 30
+Time:
+25.16 24.68 
+RSRP-RSRQ-ServingCellId State:
+69 66 30 24 1 
+66 69 24 30 2 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 25.16 (sec) eNB CellId 2 UE with IMSI 2 RNTI 1 measId 2 RSRP 69 RSRQ 30
+Time:
+25.16 25.16 
+RSRP-RSRQ-ServingCellId State:
+69 66 30 24 1 
+66 69 24 30 2 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 25.64 (sec) eNB CellId 1 UE with IMSI 1 RNTI 1 measId 2 RSRP 69 RSRQ 30
+Time:
+25.64 25.16 
+RSRP-RSRQ-ServingCellId State:
+69 66 30 24 1 
+66 69 24 30 2 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 25.64 (sec) eNB CellId 2 UE with IMSI 2 RNTI 1 measId 2 RSRP 69 RSRQ 30
+Time:
+25.64 25.64 
+RSRP-RSRQ-ServingCellId State:
+69 66 30 24 1 
+66 69 24 30 2 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 26.12 (sec) eNB CellId 1 UE with IMSI 1 RNTI 1 measId 2 RSRP 69 RSRQ 30
+Time:
+26.12 25.64 
+RSRP-RSRQ-ServingCellId State:
+69 66 30 24 1 
+66 69 24 30 2 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 26.12 (sec) eNB CellId 2 UE with IMSI 2 RNTI 1 measId 2 RSRP 69 RSRQ 30
+Time:
+26.12 26.12 
+RSRP-RSRQ-ServingCellId State:
+69 66 30 24 1 
+66 69 24 30 2 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 26.6 (sec) eNB CellId 1 UE with IMSI 1 RNTI 1 measId 2 RSRP 69 RSRQ 30
+Time:
+26.6 26.12 
+RSRP-RSRQ-ServingCellId State:
+69 66 30 24 1 
+66 69 24 30 2 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 26.6 (sec) eNB CellId 2 UE with IMSI 2 RNTI 1 measId 2 RSRP 69 RSRQ 30
+Time:
+26.6 26.6 
+RSRP-RSRQ-ServingCellId State:
+69 66 30 24 1 
+66 69 24 30 2 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 27.08 (sec) eNB CellId 1 UE with IMSI 1 RNTI 1 measId 2 RSRP 69 RSRQ 30
+Time:
+27.08 26.6 
+RSRP-RSRQ-ServingCellId State:
+69 66 30 24 1 
+66 69 24 30 2 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 27.08 (sec) eNB CellId 2 UE with IMSI 2 RNTI 1 measId 2 RSRP 69 RSRQ 30
+Time:
+27.08 27.08 
+RSRP-RSRQ-ServingCellId State:
+69 66 30 24 1 
+66 69 24 30 2 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 27.56 (sec) eNB CellId 1 UE with IMSI 1 RNTI 1 measId 2 RSRP 69 RSRQ 30
+Time:
+27.56 27.08 
+RSRP-RSRQ-ServingCellId State:
+69 66 30 24 1 
+66 69 24 30 2 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 27.56 (sec) eNB CellId 2 UE with IMSI 2 RNTI 1 measId 2 RSRP 69 RSRQ 30
+Time:
+27.56 27.56 
+RSRP-RSRQ-ServingCellId State:
+69 66 30 24 1 
+66 69 24 30 2 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 28.04 (sec) eNB CellId 1 UE with IMSI 1 RNTI 1 measId 2 RSRP 69 RSRQ 30
+Time:
+28.04 27.56 
+RSRP-RSRQ-ServingCellId State:
+69 66 30 25 1 
+66 69 24 30 2 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 28.04 (sec) eNB CellId 2 UE with IMSI 2 RNTI 1 measId 2 RSRP 69 RSRQ 30
+Time:
+28.04 28.04 
+RSRP-RSRQ-ServingCellId State:
+69 66 30 25 1 
+66 69 25 30 2 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 28.52 (sec) eNB CellId 1 UE with IMSI 1 RNTI 1 measId 2 RSRP 69 RSRQ 30
+Time:
+28.52 28.04 
+RSRP-RSRQ-ServingCellId State:
+69 66 30 25 1 
+66 69 25 30 2 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 28.52 (sec) eNB CellId 2 UE with IMSI 2 RNTI 1 measId 2 RSRP 69 RSRQ 30
+Time:
+28.52 28.52 
+RSRP-RSRQ-ServingCellId State:
+69 66 30 25 1 
+66 69 25 30 2 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 29 (sec) eNB CellId 1 UE with IMSI 1 RNTI 1 measId 2 RSRP 69 RSRQ 29
+Time:
+29 28.52 
+RSRP-RSRQ-ServingCellId State:
+69 66 29 25 1 
+66 69 25 30 2 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 29 (sec) eNB CellId 2 UE with IMSI 2 RNTI 1 measId 2 RSRP 69 RSRQ 29
+Time:
+29 29 
+RSRP-RSRQ-ServingCellId State:
+69 66 29 25 1 
+66 69 25 29 2 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 29.48 (sec) eNB CellId 1 UE with IMSI 1 RNTI 1 measId 2 RSRP 69 RSRQ 29
+Time:
+29.48 29 
+RSRP-RSRQ-ServingCellId State:
+69 66 29 25 1 
+66 69 25 29 2 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 29.48 (sec) eNB CellId 2 UE with IMSI 2 RNTI 1 measId 2 RSRP 69 RSRQ 29
+Time:
+29.48 29.48 
+RSRP-RSRQ-ServingCellId State:
+69 66 29 25 1 
+66 69 25 29 2 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 29.96 (sec) eNB CellId 1 UE with IMSI 1 RNTI 1 measId 2 RSRP 69 RSRQ 29
+Time:
+29.96 29.48 
+RSRP-RSRQ-ServingCellId State:
+69 67 29 25 1 
+66 69 25 29 2 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 29.96 (sec) eNB CellId 2 UE with IMSI 2 RNTI 1 measId 2 RSRP 69 RSRQ 29
+Time:
+29.96 29.96 
+RSRP-RSRQ-ServingCellId State:
+69 67 29 25 1 
+67 69 25 29 2 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 30.44 (sec) eNB CellId 1 UE with IMSI 1 RNTI 1 measId 2 RSRP 69 RSRQ 29
+Time:
+30.44 29.96 
+RSRP-RSRQ-ServingCellId State:
+69 67 29 25 1 
+67 69 25 29 2 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 30.44 (sec) eNB CellId 2 UE with IMSI 2 RNTI 1 measId 2 RSRP 69 RSRQ 29
+Time:
+30.44 30.44 
+RSRP-RSRQ-ServingCellId State:
+69 67 29 25 1 
+67 69 25 29 2 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 30.92 (sec) eNB CellId 1 UE with IMSI 1 RNTI 1 measId 2 RSRP 69 RSRQ 29
+Time:
+30.92 30.44 
+RSRP-RSRQ-ServingCellId State:
+69 67 29 25 1 
+67 69 25 29 2 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 30.92 (sec) eNB CellId 2 UE with IMSI 2 RNTI 1 measId 2 RSRP 69 RSRQ 29
+Time:
+30.92 30.92 
+RSRP-RSRQ-ServingCellId State:
+69 67 29 25 1 
+67 69 25 29 2 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 31.4 (sec) eNB CellId 1 UE with IMSI 1 RNTI 1 measId 2 RSRP 69 RSRQ 29
+Time:
+31.4 30.92 
+RSRP-RSRQ-ServingCellId State:
+69 67 29 26 1 
+67 69 25 29 2 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 31.4 (sec) eNB CellId 2 UE with IMSI 2 RNTI 1 measId 2 RSRP 69 RSRQ 29
+Time:
+31.4 31.4 
+RSRP-RSRQ-ServingCellId State:
+69 67 29 26 1 
+67 69 26 29 2 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 31.88 (sec) eNB CellId 1 UE with IMSI 1 RNTI 1 measId 2 RSRP 68 RSRQ 29
+Time:
+31.88 31.4 
+RSRP-RSRQ-ServingCellId State:
+68 67 29 26 1 
+67 69 26 29 2 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 31.88 (sec) eNB CellId 2 UE with IMSI 2 RNTI 1 measId 2 RSRP 68 RSRQ 29
+Time:
+31.88 31.88 
+RSRP-RSRQ-ServingCellId State:
+68 67 29 26 1 
+67 68 26 29 2 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 32.36 (sec) eNB CellId 1 UE with IMSI 1 RNTI 1 measId 2 RSRP 68 RSRQ 29
+Time:
+32.36 31.88 
+RSRP-RSRQ-ServingCellId State:
+68 67 29 26 1 
+67 68 26 29 2 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 32.36 (sec) eNB CellId 2 UE with IMSI 2 RNTI 1 measId 2 RSRP 68 RSRQ 29
+Time:
+32.36 32.36 
+RSRP-RSRQ-ServingCellId State:
+68 67 29 26 1 
+67 68 26 29 2 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 32.84 (sec) eNB CellId 1 UE with IMSI 1 RNTI 1 measId 2 RSRP 68 RSRQ 29
+Time:
+32.84 32.36 
+RSRP-RSRQ-ServingCellId State:
+68 67 29 26 1 
+67 68 26 29 2 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 32.84 (sec) eNB CellId 2 UE with IMSI 2 RNTI 1 measId 2 RSRP 68 RSRQ 29
+Time:
+32.84 32.84 
+RSRP-RSRQ-ServingCellId State:
+68 67 29 26 1 
+67 68 26 29 2 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 33.32 (sec) eNB CellId 1 UE with IMSI 1 RNTI 1 measId 2 RSRP 68 RSRQ 29
+Time:
+33.32 32.84 
+RSRP-RSRQ-ServingCellId State:
+68 67 29 26 1 
+67 68 26 29 2 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 33.32 (sec) eNB CellId 2 UE with IMSI 2 RNTI 1 measId 2 RSRP 68 RSRQ 29
+Time:
+33.32 33.32 
+RSRP-RSRQ-ServingCellId State:
+68 67 29 26 1 
+67 68 26 29 2 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 33.8 (sec) eNB CellId 1 UE with IMSI 1 RNTI 1 measId 2 RSRP 68 RSRQ 28
+Time:
+33.8 33.32 
+RSRP-RSRQ-ServingCellId State:
+68 67 28 26 1 
+67 68 26 29 2 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 33.8 (sec) eNB CellId 2 UE with IMSI 2 RNTI 1 measId 2 RSRP 68 RSRQ 28
+Time:
+33.8 33.8 
+RSRP-RSRQ-ServingCellId State:
+68 67 28 26 1 
+67 68 26 28 2 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 34.28 (sec) eNB CellId 1 UE with IMSI 1 RNTI 1 measId 2 RSRP 68 RSRQ 28
+Time:
+34.28 33.8 
+RSRP-RSRQ-ServingCellId State:
+68 67 28 26 1 
+67 68 26 28 2 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 34.28 (sec) eNB CellId 2 UE with IMSI 2 RNTI 1 measId 2 RSRP 68 RSRQ 28
+Time:
+34.28 34.28 
+RSRP-RSRQ-ServingCellId State:
+68 67 28 26 1 
+67 68 26 28 2 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 34.76 (sec) eNB CellId 1 UE with IMSI 1 RNTI 1 measId 2 RSRP 68 RSRQ 28
+Time:
+34.76 34.28 
+RSRP-RSRQ-ServingCellId State:
+68 67 28 27 1 
+67 68 26 28 2 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 34.76 (sec) eNB CellId 2 UE with IMSI 2 RNTI 1 measId 2 RSRP 68 RSRQ 28
+Time:
+34.76 34.76 
+RSRP-RSRQ-ServingCellId State:
+68 67 28 27 1 
+67 68 27 28 2 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 35.24 (sec) eNB CellId 1 UE with IMSI 1 RNTI 1 measId 2 RSRP 68 RSRQ 28
+Time:
+35.24 34.76 
+RSRP-RSRQ-ServingCellId State:
+68 67 28 27 1 
+67 68 27 28 2 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 35.24 (sec) eNB CellId 2 UE with IMSI 2 RNTI 1 measId 2 RSRP 68 RSRQ 28
+Time:
+35.24 35.24 
+RSRP-RSRQ-ServingCellId State:
+68 67 28 27 1 
+67 68 27 28 2 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 35.72 (sec) eNB CellId 1 UE with IMSI 1 RNTI 1 measId 2 RSRP 68 RSRQ 28
+Time:
+35.72 35.24 
+RSRP-RSRQ-ServingCellId State:
+68 67 28 27 1 
+67 68 27 28 2 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 35.72 (sec) eNB CellId 2 UE with IMSI 2 RNTI 1 measId 2 RSRP 68 RSRQ 28
+Time:
+35.72 35.72 
+RSRP-RSRQ-ServingCellId State:
+68 67 28 27 1 
+67 68 27 28 2 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 36.2 (sec) eNB CellId 1 UE with IMSI 1 RNTI 1 measId 2 RSRP 68 RSRQ 28
+Time:
+36.2 35.72 
+RSRP-RSRQ-ServingCellId State:
+68 68 28 27 1 
+67 68 27 28 2 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 36.2 (sec) eNB CellId 2 UE with IMSI 2 RNTI 1 measId 2 RSRP 68 RSRQ 28
+Time:
+36.2 36.2 
+RSRP-RSRQ-ServingCellId State:
+68 68 28 27 1 
+68 68 27 28 2 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 36.68 (sec) eNB CellId 1 UE with IMSI 1 RNTI 1 measId 2 RSRP 68 RSRQ 28
+Time:
+36.68 36.2 
+RSRP-RSRQ-ServingCellId State:
+68 68 28 27 1 
+68 68 27 28 2 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 36.68 (sec) eNB CellId 2 UE with IMSI 2 RNTI 1 measId 2 RSRP 68 RSRQ 28
+Time:
+36.68 36.68 
+RSRP-RSRQ-ServingCellId State:
+68 68 28 27 1 
+68 68 27 28 2 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 37.16 (sec) eNB CellId 1 UE with IMSI 1 RNTI 1 measId 2 RSRP 68 RSRQ 28
+Time:
+37.16 36.68 
+RSRP-RSRQ-ServingCellId State:
+68 68 28 27 1 
+68 68 27 28 2 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 37.16 (sec) eNB CellId 2 UE with IMSI 2 RNTI 1 measId 2 RSRP 68 RSRQ 28
+Time:
+37.16 37.16 
+RSRP-RSRQ-ServingCellId State:
+68 68 28 27 1 
+68 68 27 28 2 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 37.64 (sec) eNB CellId 1 UE with IMSI 1 RNTI 1 measId 2 RSRP 68 RSRQ 28
+Time:
+37.64 37.16 
+RSRP-RSRQ-ServingCellId State:
+68 68 28 27 1 
+68 68 27 28 2 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 37.64 (sec) eNB CellId 2 UE with IMSI 2 RNTI 1 measId 2 RSRP 68 RSRQ 28
+Time:
+37.64 37.64 
+RSRP-RSRQ-ServingCellId State:
+68 68 28 27 1 
+68 68 27 28 2 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 38.12 (sec) eNB CellId 1 UE with IMSI 1 RNTI 1 measId 2 RSRP 68 RSRQ 27
+Time:
+38.12 37.64 
+RSRP-RSRQ-ServingCellId State:
+68 68 27 28 1 
+68 68 27 28 2 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 38.12 (sec) eNB CellId 2 UE with IMSI 2 RNTI 1 measId 2 RSRP 68 RSRQ 27
+Time:
+38.12 38.12 
+RSRP-RSRQ-ServingCellId State:
+68 68 27 28 1 
+68 68 28 27 2 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 38.6 (sec) eNB CellId 1 UE with IMSI 1 RNTI 1 measId 2 RSRP 68 RSRQ 27
+Time:
+38.6 38.12 
+RSRP-RSRQ-ServingCellId State:
+68 68 27 28 1 
+68 68 28 27 2 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 38.6 (sec) eNB CellId 2 UE with IMSI 2 RNTI 1 measId 2 RSRP 68 RSRQ 27
+Time:
+38.6 38.6 
+RSRP-RSRQ-ServingCellId State:
+68 68 27 28 1 
+68 68 28 27 2 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 39.08 (sec) eNB CellId 1 UE with IMSI 1 RNTI 1 measId 2 RSRP 68 RSRQ 27
+Time:
+39.08 38.6 
+RSRP-RSRQ-ServingCellId State:
+68 68 27 28 1 
+68 68 28 27 2 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 39.08 (sec) eNB CellId 2 UE with IMSI 2 RNTI 1 measId 2 RSRP 68 RSRQ 27
+Time:
+39.08 39.08 
+RSRP-RSRQ-ServingCellId State:
+68 68 27 28 1 
+68 68 28 27 2 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 39.56 (sec) eNB CellId 1 UE with IMSI 1 RNTI 1 measId 2 RSRP 68 RSRQ 27
+Time:
+39.56 39.08 
+RSRP-RSRQ-ServingCellId State:
+68 68 27 28 1 
+68 68 28 27 2 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 39.56 (sec) eNB CellId 2 UE with IMSI 2 RNTI 1 measId 2 RSRP 68 RSRQ 27
+Time:
+39.56 39.56 
+RSRP-RSRQ-ServingCellId State:
+68 68 27 28 1 
+68 68 28 27 2 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 40.04 (sec) eNB CellId 1 UE with IMSI 1 RNTI 1 measId 2 RSRP 67 RSRQ 27
+Time:
+40.04 39.56 
+RSRP-RSRQ-ServingCellId State:
+67 68 27 28 1 
+68 68 28 27 2 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 40.04 (sec) eNB CellId 2 UE with IMSI 2 RNTI 1 measId 2 RSRP 67 RSRQ 27
+Time:
+40.04 40.04 
+RSRP-RSRQ-ServingCellId State:
+67 68 27 28 1 
+68 67 28 27 2 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 40.52 (sec) eNB CellId 1 UE with IMSI 1 RNTI 1 measId 2 RSRP 67 RSRQ 27
+Time:
+40.52 40.04 
+RSRP-RSRQ-ServingCellId State:
+67 68 27 28 1 
+68 67 28 27 2 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 40.52 (sec) eNB CellId 2 UE with IMSI 2 RNTI 1 measId 2 RSRP 67 RSRQ 27
+Time:
+40.52 40.52 
+RSRP-RSRQ-ServingCellId State:
+67 68 27 28 1 
+68 67 28 27 2 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 41 (sec) eNB CellId 1 UE with IMSI 1 RNTI 1 measId 2 RSRP 67 RSRQ 27
+Time:
+41 40.52 
+RSRP-RSRQ-ServingCellId State:
+67 68 27 28 1 
+68 67 28 27 2 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 41 (sec) eNB CellId 2 UE with IMSI 2 RNTI 1 measId 2 RSRP 67 RSRQ 27
+Time:
+41 41 
+RSRP-RSRQ-ServingCellId State:
+67 68 27 28 1 
+68 67 28 27 2 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 41.48 (sec) eNB CellId 1 UE with IMSI 1 RNTI 1 measId 2 RSRP 67 RSRQ 26
+Time:
+41.48 41 
+RSRP-RSRQ-ServingCellId State:
+67 68 26 28 1 
+68 67 28 27 2 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 41.48 (sec) eNB CellId 2 UE with IMSI 2 RNTI 1 measId 2 RSRP 67 RSRQ 26
+Time:
+41.48 41.48 
+RSRP-RSRQ-ServingCellId State:
+67 68 26 28 1 
+68 67 28 26 2 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 41.96 (sec) eNB CellId 1 UE with IMSI 1 RNTI 1 measId 2 RSRP 67 RSRQ 26
+Time:
+41.96 41.48 
+RSRP-RSRQ-ServingCellId State:
+67 68 26 28 1 
+68 67 28 26 2 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 41.96 (sec) eNB CellId 2 UE with IMSI 2 RNTI 1 measId 2 RSRP 67 RSRQ 26
+Time:
+41.96 41.96 
+RSRP-RSRQ-ServingCellId State:
+67 68 26 28 1 
+68 67 28 26 2 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 42.44 (sec) eNB CellId 1 UE with IMSI 1 RNTI 1 measId 2 RSRP 67 RSRQ 26
+Time:
+42.44 41.96 
+RSRP-RSRQ-ServingCellId State:
+67 68 26 29 1 
+68 67 28 26 2 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 42.44 (sec) eNB CellId 2 UE with IMSI 2 RNTI 1 measId 2 RSRP 67 RSRQ 26
+Time:
+42.44 42.44 
+RSRP-RSRQ-ServingCellId State:
+67 68 26 29 1 
+68 67 29 26 2 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 42.92 (sec) eNB CellId 1 UE with IMSI 1 RNTI 1 measId 2 RSRP 67 RSRQ 26
+Time:
+42.92 42.44 
+RSRP-RSRQ-ServingCellId State:
+67 68 26 29 1 
+68 67 29 26 2 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 42.92 (sec) eNB CellId 2 UE with IMSI 2 RNTI 1 measId 2 RSRP 67 RSRQ 26
+Time:
+42.92 42.92 
+RSRP-RSRQ-ServingCellId State:
+67 68 26 29 1 
+68 67 29 26 2 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 43.4 (sec) eNB CellId 1 UE with IMSI 1 RNTI 1 measId 2 RSRP 67 RSRQ 26
+Time:
+43.4 42.92 
+RSRP-RSRQ-ServingCellId State:
+67 68 26 29 1 
+68 67 29 26 2 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 43.4 (sec) eNB CellId 2 UE with IMSI 2 RNTI 1 measId 2 RSRP 67 RSRQ 26
+Time:
+43.4 43.4 
+RSRP-RSRQ-ServingCellId State:
+67 68 26 29 1 
+68 67 29 26 2 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 43.88 (sec) eNB CellId 1 UE with IMSI 1 RNTI 1 measId 2 RSRP 67 RSRQ 26
+Time:
+43.88 43.4 
+RSRP-RSRQ-ServingCellId State:
+67 68 26 29 1 
+68 67 29 26 2 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 43.88 (sec) eNB CellId 2 UE with IMSI 2 RNTI 1 measId 2 RSRP 67 RSRQ 26
+Time:
+43.88 43.88 
+RSRP-RSRQ-ServingCellId State:
+67 68 26 29 1 
+68 67 29 26 2 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 44.36 (sec) eNB CellId 1 UE with IMSI 1 RNTI 1 measId 2 RSRP 67 RSRQ 26
+Time:
+44.36 43.88 
+RSRP-RSRQ-ServingCellId State:
+67 69 26 29 1 
+68 67 29 26 2 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 44.36 (sec) eNB CellId 2 UE with IMSI 2 RNTI 1 measId 2 RSRP 67 RSRQ 26
+Time:
+44.36 44.36 
+RSRP-RSRQ-ServingCellId State:
+67 69 26 29 1 
+69 67 29 26 2 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 44.84 (sec) eNB CellId 1 UE with IMSI 1 RNTI 1 measId 2 RSRP 67 RSRQ 25
+Time:
+44.84 44.36 
+RSRP-RSRQ-ServingCellId State:
+67 69 25 29 1 
+69 67 29 26 2 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 44.84 (sec) eNB CellId 2 UE with IMSI 2 RNTI 1 measId 2 RSRP 67 RSRQ 25
+Time:
+44.84 44.84 
+RSRP-RSRQ-ServingCellId State:
+67 69 25 29 1 
+69 67 29 25 2 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 45.32 (sec) eNB CellId 1 UE with IMSI 1 RNTI 1 measId 2 RSRP 67 RSRQ 25
+Time:
+45.32 44.84 
+RSRP-RSRQ-ServingCellId State:
+67 69 25 29 1 
+69 67 29 25 2 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 45.32 (sec) eNB CellId 2 UE with IMSI 2 RNTI 1 measId 2 RSRP 67 RSRQ 25
+Time:
+45.32 45.32 
+RSRP-RSRQ-ServingCellId State:
+67 69 25 29 1 
+69 67 29 25 2 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 45.8 (sec) eNB CellId 1 UE with IMSI 1 RNTI 1 measId 2 RSRP 67 RSRQ 25
+Time:
+45.8 45.32 
+RSRP-RSRQ-ServingCellId State:
+67 69 25 29 1 
+69 67 29 25 2 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 45.8 (sec) eNB CellId 2 UE with IMSI 2 RNTI 1 measId 2 RSRP 67 RSRQ 25
+Time:
+45.8 45.8 
+RSRP-RSRQ-ServingCellId State:
+67 69 25 29 1 
+69 67 29 25 2 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 46.28 (sec) eNB CellId 1 UE with IMSI 1 RNTI 1 measId 2 RSRP 66 RSRQ 25
+Time:
+46.28 45.8 
+RSRP-RSRQ-ServingCellId State:
+66 69 25 29 1 
+69 67 29 25 2 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 46.28 (sec) eNB CellId 2 UE with IMSI 2 RNTI 1 measId 2 RSRP 66 RSRQ 25
+Time:
+46.28 46.28 
+RSRP-RSRQ-ServingCellId State:
+66 69 25 29 1 
+69 66 29 25 2 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 46.76 (sec) eNB CellId 1 UE with IMSI 1 RNTI 1 measId 2 RSRP 66 RSRQ 25
+Time:
+46.76 46.28 
+RSRP-RSRQ-ServingCellId State:
+66 69 25 29 1 
+69 66 29 25 2 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 46.76 (sec) eNB CellId 2 UE with IMSI 2 RNTI 1 measId 2 RSRP 66 RSRQ 25
+Time:
+46.76 46.76 
+RSRP-RSRQ-ServingCellId State:
+66 69 25 29 1 
+69 66 29 25 2 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 47.24 (sec) eNB CellId 1 UE with IMSI 1 RNTI 1 measId 2 RSRP 66 RSRQ 25
+Time:
+47.24 46.76 
+RSRP-RSRQ-ServingCellId State:
+66 69 25 30 1 
+69 66 29 25 2 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 47.24 (sec) eNB CellId 2 UE with IMSI 2 RNTI 1 measId 2 RSRP 66 RSRQ 25
+Time:
+47.24 47.24 
+RSRP-RSRQ-ServingCellId State:
+66 69 25 30 1 
+69 66 30 25 2 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 47.72 (sec) eNB CellId 1 UE with IMSI 1 RNTI 1 measId 2 RSRP 66 RSRQ 25
+Time:
+47.72 47.24 
+RSRP-RSRQ-ServingCellId State:
+66 69 25 30 1 
+69 66 30 25 2 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 47.72 (sec) eNB CellId 2 UE with IMSI 2 RNTI 1 measId 2 RSRP 66 RSRQ 25
+Time:
+47.72 47.72 
+RSRP-RSRQ-ServingCellId State:
+66 69 25 30 1 
+69 66 30 25 2 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 48.2 (sec) eNB CellId 1 UE with IMSI 1 RNTI 1 measId 2 RSRP 66 RSRQ 24
+Time:
+48.2 47.72 
+RSRP-RSRQ-ServingCellId State:
+66 69 24 30 1 
+69 66 30 25 2 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 48.2 (sec) eNB CellId 2 UE with IMSI 2 RNTI 1 measId 2 RSRP 66 RSRQ 24
+Time:
+48.2 48.2 
+RSRP-RSRQ-ServingCellId State:
+66 69 24 30 1 
+69 66 30 24 2 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 48.68 (sec) eNB CellId 1 UE with IMSI 1 RNTI 1 measId 2 RSRP 66 RSRQ 24
+Time:
+48.68 48.2 
+RSRP-RSRQ-ServingCellId State:
+66 69 24 30 1 
+69 66 30 24 2 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 48.68 (sec) eNB CellId 2 UE with IMSI 2 RNTI 1 measId 2 RSRP 66 RSRQ 24
+Time:
+48.68 48.68 
+RSRP-RSRQ-ServingCellId State:
+66 69 24 30 1 
+69 66 30 24 2 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 49.16 (sec) eNB CellId 1 UE with IMSI 1 RNTI 1 measId 2 RSRP 66 RSRQ 24
+Time:
+49.16 48.68 
+RSRP-RSRQ-ServingCellId State:
+66 69 24 30 1 
+69 66 30 24 2 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 49.16 (sec) eNB CellId 2 UE with IMSI 2 RNTI 1 measId 2 RSRP 66 RSRQ 24
+Time:
+49.16 49.16 
+RSRP-RSRQ-ServingCellId State:
+66 69 24 30 1 
+69 66 30 24 2 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 49.64 (sec) eNB CellId 1 UE with IMSI 1 RNTI 1 measId 2 RSRP 66 RSRQ 24
+Time:
+49.64 49.16 
+RSRP-RSRQ-ServingCellId State:
+66 69 24 30 1 
+69 66 30 24 2 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 49.64 (sec) eNB CellId 2 UE with IMSI 2 RNTI 1 measId 2 RSRP 66 RSRQ 24
+Time:
+49.64 49.64 
+RSRP-RSRQ-ServingCellId State:
+66 69 24 30 1 
+69 66 30 24 2 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 50.12 (sec) eNB CellId 1 UE with IMSI 1 RNTI 1 measId 2 RSRP 66 RSRQ 24
+Time:
+50.12 49.64 
+RSRP-RSRQ-ServingCellId State:
+66 69 24 30 1 
+69 66 30 24 2 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 50.12 (sec) eNB CellId 2 UE with IMSI 2 RNTI 1 measId 2 RSRP 66 RSRQ 24
+Time:
+50.12 50.12 
+RSRP-RSRQ-ServingCellId State:
+66 69 24 30 1 
+69 66 30 24 2 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 50.6 (sec) eNB CellId 1 UE with IMSI 1 RNTI 1 measId 2 RSRP 66 RSRQ 24
+Time:
+50.6 50.12 
+RSRP-RSRQ-ServingCellId State:
+66 69 24 30 1 
+69 66 30 24 2 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 50.6 (sec) eNB CellId 2 UE with IMSI 2 RNTI 1 measId 2 RSRP 66 RSRQ 24
+Time:
+50.6 50.6 
+RSRP-RSRQ-ServingCellId State:
+66 69 24 30 1 
+69 66 30 24 2 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 50.656 (sec) eNB CellId 1 UE with IMSI 1 RNTI 1 measId 1 RSRP 66 RSRQ 24
+Time:
+50.656 50.6 
+RSRP-RSRQ-ServingCellId State:
+66 69 24 30 1 
+69 66 30 24 2 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 50.656 (sec) eNB CellId 2 UE with IMSI 2 RNTI 1 measId 1 RSRP 66 RSRQ 24
+Time:
+50.656 50.656 
+RSRP-RSRQ-ServingCellId State:
+66 69 24 30 1 
+69 66 30 24 2 
+/NodeList/3/DeviceList/0/LteEnbRrc/HandoverStart at 50.656 (sec) eNB CellId 1: start handover of UE with IMSI 1 RNTI 1 to CellId 2
+/NodeList/4/DeviceList/0/LteEnbRrc/HandoverStart at 50.656 (sec) eNB CellId 2: start handover of UE with IMSI 2 RNTI 1 to CellId 1
+/NodeList/5/DeviceList/0/LteUeRrc/HandoverStart at 50.656 (sec) UE IMSI 1: previously connected to CellId 1 with RNTI 1, doing handover to CellId 2
+/NodeList/6/DeviceList/0/LteUeRrc/HandoverStart at 50.656 (sec) UE IMSI 2: previously connected to CellId 2 with RNTI 1, doing handover to CellId 1
+/NodeList/6/DeviceList/0/LteUeRrc/HandoverEndOk at 50.6602 (sec) UE IMSI 2: successful handover to CellId 1 with RNTI 2
+/NodeList/5/DeviceList/0/LteUeRrc/HandoverEndOk at 50.6602 (sec) UE IMSI 1: successful handover to CellId 2 with RNTI 2
+/NodeList/3/DeviceList/0/LteEnbRrc/HandoverEndOk at 50.6602 (sec) eNB CellId 1: completed handover of UE with IMSI 2 RNTI 2
+/NodeList/4/DeviceList/0/LteEnbRrc/HandoverEndOk at 50.6602 (sec) eNB CellId 2: completed handover of UE with IMSI 1 RNTI 2
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 50.8 (sec) eNB CellId 2 UE with IMSI 1 RNTI 2 measId 2 RSRP 69 RSRQ 30
+Time:
+50.8 50.656 
+RSRP-RSRQ-ServingCellId State:
+66 69 24 30 2 
+69 66 30 24 2 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 50.8 (sec) eNB CellId 1 UE with IMSI 2 RNTI 2 measId 2 RSRP 69 RSRQ 30
+Time:
+50.8 50.8 
+RSRP-RSRQ-ServingCellId State:
+66 69 24 30 2 
+69 66 30 24 1 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 51.28 (sec) eNB CellId 2 UE with IMSI 1 RNTI 2 measId 2 RSRP 69 RSRQ 30
+Time:
+51.28 50.8 
+RSRP-RSRQ-ServingCellId State:
+66 69 24 30 2 
+69 66 30 24 1 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 51.28 (sec) eNB CellId 1 UE with IMSI 2 RNTI 2 measId 2 RSRP 69 RSRQ 30
+Time:
+51.28 51.28 
+RSRP-RSRQ-ServingCellId State:
+66 69 24 30 2 
+69 66 30 24 1 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 51.76 (sec) eNB CellId 2 UE with IMSI 1 RNTI 2 measId 2 RSRP 69 RSRQ 30
+Time:
+51.76 51.28 
+RSRP-RSRQ-ServingCellId State:
+66 69 24 30 2 
+69 66 30 24 1 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 51.76 (sec) eNB CellId 1 UE with IMSI 2 RNTI 2 measId 2 RSRP 69 RSRQ 30
+Time:
+51.76 51.76 
+RSRP-RSRQ-ServingCellId State:
+66 69 24 30 2 
+69 66 30 24 1 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 52.24 (sec) eNB CellId 2 UE with IMSI 1 RNTI 2 measId 2 RSRP 69 RSRQ 30
+Time:
+52.24 51.76 
+RSRP-RSRQ-ServingCellId State:
+65 69 24 30 2 
+69 66 30 24 1 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 52.24 (sec) eNB CellId 1 UE with IMSI 2 RNTI 2 measId 2 RSRP 69 RSRQ 30
+Time:
+52.24 52.24 
+RSRP-RSRQ-ServingCellId State:
+65 69 24 30 2 
+69 65 30 24 1 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 52.72 (sec) eNB CellId 2 UE with IMSI 1 RNTI 2 measId 2 RSRP 69 RSRQ 30
+Time:
+52.72 52.24 
+RSRP-RSRQ-ServingCellId State:
+65 69 23 30 2 
+69 65 30 24 1 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 52.72 (sec) eNB CellId 1 UE with IMSI 2 RNTI 2 measId 2 RSRP 69 RSRQ 30
+Time:
+52.72 52.72 
+RSRP-RSRQ-ServingCellId State:
+65 69 23 30 2 
+69 65 30 23 1 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 53.2 (sec) eNB CellId 2 UE with IMSI 1 RNTI 2 measId 2 RSRP 69 RSRQ 30
+Time:
+53.2 52.72 
+RSRP-RSRQ-ServingCellId State:
+65 69 23 30 2 
+69 65 30 23 1 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 53.2 (sec) eNB CellId 1 UE with IMSI 2 RNTI 2 measId 2 RSRP 69 RSRQ 30
+Time:
+53.2 53.2 
+RSRP-RSRQ-ServingCellId State:
+65 69 23 30 2 
+69 65 30 23 1 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 53.68 (sec) eNB CellId 2 UE with IMSI 1 RNTI 2 measId 2 RSRP 69 RSRQ 30
+Time:
+53.68 53.2 
+RSRP-RSRQ-ServingCellId State:
+65 69 23 30 2 
+69 65 30 23 1 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 53.68 (sec) eNB CellId 1 UE with IMSI 2 RNTI 2 measId 2 RSRP 69 RSRQ 30
+Time:
+53.68 53.68 
+RSRP-RSRQ-ServingCellId State:
+65 69 23 30 2 
+69 65 30 23 1 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 54.16 (sec) eNB CellId 2 UE with IMSI 1 RNTI 2 measId 2 RSRP 69 RSRQ 30
+Time:
+54.16 53.68 
+RSRP-RSRQ-ServingCellId State:
+65 69 23 30 2 
+69 65 30 23 1 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 54.16 (sec) eNB CellId 1 UE with IMSI 2 RNTI 2 measId 2 RSRP 69 RSRQ 30
+Time:
+54.16 54.16 
+RSRP-RSRQ-ServingCellId State:
+65 69 23 30 2 
+69 65 30 23 1 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 54.64 (sec) eNB CellId 2 UE with IMSI 1 RNTI 2 measId 2 RSRP 69 RSRQ 30
+Time:
+54.64 54.16 
+RSRP-RSRQ-ServingCellId State:
+65 69 23 30 2 
+69 65 30 23 1 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 54.64 (sec) eNB CellId 1 UE with IMSI 2 RNTI 2 measId 2 RSRP 69 RSRQ 30
+Time:
+54.64 54.64 
+RSRP-RSRQ-ServingCellId State:
+65 69 23 30 2 
+69 65 30 23 1 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 55.12 (sec) eNB CellId 2 UE with IMSI 1 RNTI 2 measId 2 RSRP 69 RSRQ 30
+Time:
+55.12 54.64 
+RSRP-RSRQ-ServingCellId State:
+65 69 23 30 2 
+69 65 30 23 1 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 55.12 (sec) eNB CellId 1 UE with IMSI 2 RNTI 2 measId 2 RSRP 69 RSRQ 30
+Time:
+55.12 55.12 
+RSRP-RSRQ-ServingCellId State:
+65 69 23 30 2 
+69 65 30 23 1 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 55.6 (sec) eNB CellId 2 UE with IMSI 1 RNTI 2 measId 2 RSRP 69 RSRQ 30
+Time:
+55.6 55.12 
+RSRP-RSRQ-ServingCellId State:
+65 69 23 30 2 
+69 65 30 23 1 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 55.6 (sec) eNB CellId 1 UE with IMSI 2 RNTI 2 measId 2 RSRP 69 RSRQ 30
+Time:
+55.6 55.6 
+RSRP-RSRQ-ServingCellId State:
+65 69 23 30 2 
+69 65 30 23 1 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 56.08 (sec) eNB CellId 2 UE with IMSI 1 RNTI 2 measId 2 RSRP 69 RSRQ 30
+Time:
+56.08 55.6 
+RSRP-RSRQ-ServingCellId State:
+65 69 23 30 2 
+69 65 30 23 1 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 56.08 (sec) eNB CellId 1 UE with IMSI 2 RNTI 2 measId 2 RSRP 69 RSRQ 30
+Time:
+56.08 56.08 
+RSRP-RSRQ-ServingCellId State:
+65 69 23 30 2 
+69 65 30 23 1 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 56.56 (sec) eNB CellId 2 UE with IMSI 1 RNTI 2 measId 2 RSRP 69 RSRQ 30
+Time:
+56.56 56.08 
+RSRP-RSRQ-ServingCellId State:
+65 69 23 30 2 
+69 65 30 23 1 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 56.56 (sec) eNB CellId 1 UE with IMSI 2 RNTI 2 measId 2 RSRP 69 RSRQ 30
+Time:
+56.56 56.56 
+RSRP-RSRQ-ServingCellId State:
+65 69 23 30 2 
+69 65 30 23 1 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 57.04 (sec) eNB CellId 2 UE with IMSI 1 RNTI 2 measId 2 RSRP 68 RSRQ 30
+Time:
+57.04 56.56 
+RSRP-RSRQ-ServingCellId State:
+65 68 23 30 2 
+69 65 30 23 1 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 57.04 (sec) eNB CellId 1 UE with IMSI 2 RNTI 2 measId 2 RSRP 68 RSRQ 30
+Time:
+57.04 57.04 
+RSRP-RSRQ-ServingCellId State:
+65 68 23 30 2 
+68 65 30 23 1 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 57.52 (sec) eNB CellId 2 UE with IMSI 1 RNTI 2 measId 2 RSRP 68 RSRQ 31
+Time:
+57.52 57.04 
+RSRP-RSRQ-ServingCellId State:
+65 68 23 31 2 
+68 65 30 23 1 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 57.52 (sec) eNB CellId 1 UE with IMSI 2 RNTI 2 measId 2 RSRP 68 RSRQ 31
+Time:
+57.52 57.52 
+RSRP-RSRQ-ServingCellId State:
+65 68 23 31 2 
+68 65 31 23 1 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 58 (sec) eNB CellId 2 UE with IMSI 1 RNTI 2 measId 2 RSRP 68 RSRQ 31
+Time:
+58 57.52 
+RSRP-RSRQ-ServingCellId State:
+64 68 23 31 2 
+68 65 31 23 1 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 58 (sec) eNB CellId 1 UE with IMSI 2 RNTI 2 measId 2 RSRP 68 RSRQ 31
+Time:
+58 58 
+RSRP-RSRQ-ServingCellId State:
+64 68 23 31 2 
+68 64 31 23 1 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 58.48 (sec) eNB CellId 2 UE with IMSI 1 RNTI 2 measId 2 RSRP 68 RSRQ 31
+Time:
+58.48 58 
+RSRP-RSRQ-ServingCellId State:
+64 68 23 31 2 
+68 64 31 23 1 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 58.48 (sec) eNB CellId 1 UE with IMSI 2 RNTI 2 measId 2 RSRP 68 RSRQ 31
+Time:
+58.48 58.48 
+RSRP-RSRQ-ServingCellId State:
+64 68 23 31 2 
+68 64 31 23 1 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 58.96 (sec) eNB CellId 2 UE with IMSI 1 RNTI 2 measId 2 RSRP 68 RSRQ 31
+Time:
+58.96 58.48 
+RSRP-RSRQ-ServingCellId State:
+64 68 23 31 2 
+68 64 31 23 1 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 58.96 (sec) eNB CellId 1 UE with IMSI 2 RNTI 2 measId 2 RSRP 68 RSRQ 31
+Time:
+58.96 58.96 
+RSRP-RSRQ-ServingCellId State:
+64 68 23 31 2 
+68 64 31 23 1 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 59.44 (sec) eNB CellId 2 UE with IMSI 1 RNTI 2 measId 2 RSRP 68 RSRQ 31
+Time:
+59.44 58.96 
+RSRP-RSRQ-ServingCellId State:
+64 68 23 31 2 
+68 64 31 23 1 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 59.44 (sec) eNB CellId 1 UE with IMSI 2 RNTI 2 measId 2 RSRP 68 RSRQ 31
+Time:
+59.44 59.44 
+RSRP-RSRQ-ServingCellId State:
+64 68 23 31 2 
+68 64 31 23 1 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 59.92 (sec) eNB CellId 2 UE with IMSI 1 RNTI 2 measId 2 RSRP 68 RSRQ 31
+Time:
+59.92 59.44 
+RSRP-RSRQ-ServingCellId State:
+64 68 23 31 2 
+68 64 31 23 1 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 59.92 (sec) eNB CellId 1 UE with IMSI 2 RNTI 2 measId 2 RSRP 68 RSRQ 31
+Time:
+59.92 59.92 
+RSRP-RSRQ-ServingCellId State:
+64 68 23 31 2 
+68 64 31 23 1 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 60.4 (sec) eNB CellId 2 UE with IMSI 1 RNTI 2 measId 2 RSRP 68 RSRQ 31
+Time:
+60.4 59.92 
+RSRP-RSRQ-ServingCellId State:
+64 68 22 31 2 
+68 64 31 23 1 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 60.4 (sec) eNB CellId 1 UE with IMSI 2 RNTI 2 measId 2 RSRP 68 RSRQ 31
+Time:
+60.4 60.4 
+RSRP-RSRQ-ServingCellId State:
+64 68 22 31 2 
+68 64 31 22 1 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 60.88 (sec) eNB CellId 2 UE with IMSI 1 RNTI 2 measId 2 RSRP 68 RSRQ 31
+Time:
+60.88 60.4 
+RSRP-RSRQ-ServingCellId State:
+64 68 22 31 2 
+68 64 31 22 1 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 60.88 (sec) eNB CellId 1 UE with IMSI 2 RNTI 2 measId 2 RSRP 68 RSRQ 31
+Time:
+60.88 60.88 
+RSRP-RSRQ-ServingCellId State:
+64 68 22 31 2 
+68 64 31 22 1 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 61.36 (sec) eNB CellId 2 UE with IMSI 1 RNTI 2 measId 2 RSRP 68 RSRQ 31
+Time:
+61.36 60.88 
+RSRP-RSRQ-ServingCellId State:
+64 68 22 31 2 
+68 64 31 22 1 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 61.36 (sec) eNB CellId 1 UE with IMSI 2 RNTI 2 measId 2 RSRP 68 RSRQ 31
+Time:
+61.36 61.36 
+RSRP-RSRQ-ServingCellId State:
+64 68 22 31 2 
+68 64 31 22 1 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 61.84 (sec) eNB CellId 2 UE with IMSI 1 RNTI 2 measId 2 RSRP 68 RSRQ 31
+Time:
+61.84 61.36 
+RSRP-RSRQ-ServingCellId State:
+64 68 22 31 2 
+68 64 31 22 1 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 61.84 (sec) eNB CellId 1 UE with IMSI 2 RNTI 2 measId 2 RSRP 68 RSRQ 31
+Time:
+61.84 61.84 
+RSRP-RSRQ-ServingCellId State:
+64 68 22 31 2 
+68 64 31 22 1 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 62.32 (sec) eNB CellId 2 UE with IMSI 1 RNTI 2 measId 2 RSRP 68 RSRQ 31
+Time:
+62.32 61.84 
+RSRP-RSRQ-ServingCellId State:
+64 68 22 31 2 
+68 64 31 22 1 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 62.32 (sec) eNB CellId 1 UE with IMSI 2 RNTI 2 measId 2 RSRP 68 RSRQ 31
+Time:
+62.32 62.32 
+RSRP-RSRQ-ServingCellId State:
+64 68 22 31 2 
+68 64 31 22 1 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 62.8 (sec) eNB CellId 2 UE with IMSI 1 RNTI 2 measId 2 RSRP 68 RSRQ 31
+Time:
+62.8 62.32 
+RSRP-RSRQ-ServingCellId State:
+64 68 22 31 2 
+68 64 31 22 1 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 62.8 (sec) eNB CellId 1 UE with IMSI 2 RNTI 2 measId 2 RSRP 68 RSRQ 31
+Time:
+62.8 62.8 
+RSRP-RSRQ-ServingCellId State:
+64 68 22 31 2 
+68 64 31 22 1 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 63.28 (sec) eNB CellId 2 UE with IMSI 1 RNTI 2 measId 2 RSRP 68 RSRQ 31
+Time:
+63.28 62.8 
+RSRP-RSRQ-ServingCellId State:
+64 68 22 31 2 
+68 64 31 22 1 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 63.28 (sec) eNB CellId 1 UE with IMSI 2 RNTI 2 measId 2 RSRP 68 RSRQ 31
+Time:
+63.28 63.28 
+RSRP-RSRQ-ServingCellId State:
+64 68 22 31 2 
+68 64 31 22 1 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 63.76 (sec) eNB CellId 2 UE with IMSI 1 RNTI 2 measId 2 RSRP 68 RSRQ 31
+Time:
+63.76 63.28 
+RSRP-RSRQ-ServingCellId State:
+64 68 22 31 2 
+68 64 31 22 1 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 63.76 (sec) eNB CellId 1 UE with IMSI 2 RNTI 2 measId 2 RSRP 68 RSRQ 31
+Time:
+63.76 63.76 
+RSRP-RSRQ-ServingCellId State:
+64 68 22 31 2 
+68 64 31 22 1 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 64.24 (sec) eNB CellId 2 UE with IMSI 1 RNTI 2 measId 2 RSRP 68 RSRQ 31
+Time:
+64.24 63.76 
+RSRP-RSRQ-ServingCellId State:
+63 68 22 31 2 
+68 64 31 22 1 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 64.24 (sec) eNB CellId 1 UE with IMSI 2 RNTI 2 measId 2 RSRP 68 RSRQ 31
+Time:
+64.24 64.24 
+RSRP-RSRQ-ServingCellId State:
+63 68 22 31 2 
+68 63 31 22 1 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 64.72 (sec) eNB CellId 2 UE with IMSI 1 RNTI 2 measId 2 RSRP 68 RSRQ 31
+Time:
+64.72 64.24 
+RSRP-RSRQ-ServingCellId State:
+63 68 22 31 2 
+68 63 31 22 1 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 64.72 (sec) eNB CellId 1 UE with IMSI 2 RNTI 2 measId 2 RSRP 68 RSRQ 31
+Time:
+64.72 64.72 
+RSRP-RSRQ-ServingCellId State:
+63 68 22 31 2 
+68 63 31 22 1 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 65.2 (sec) eNB CellId 2 UE with IMSI 1 RNTI 2 measId 2 RSRP 67 RSRQ 31
+Time:
+65.2 64.72 
+RSRP-RSRQ-ServingCellId State:
+63 67 22 31 2 
+68 63 31 22 1 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 65.2 (sec) eNB CellId 1 UE with IMSI 2 RNTI 2 measId 2 RSRP 67 RSRQ 31
+Time:
+65.2 65.2 
+RSRP-RSRQ-ServingCellId State:
+63 67 22 31 2 
+67 63 31 22 1 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 65.68 (sec) eNB CellId 2 UE with IMSI 1 RNTI 2 measId 2 RSRP 67 RSRQ 31
+Time:
+65.68 65.2 
+RSRP-RSRQ-ServingCellId State:
+63 67 22 31 2 
+67 63 31 22 1 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 65.68 (sec) eNB CellId 1 UE with IMSI 2 RNTI 2 measId 2 RSRP 67 RSRQ 31
+Time:
+65.68 65.68 
+RSRP-RSRQ-ServingCellId State:
+63 67 22 31 2 
+67 63 31 22 1 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 66.16 (sec) eNB CellId 2 UE with IMSI 1 RNTI 2 measId 2 RSRP 67 RSRQ 31
+Time:
+66.16 65.68 
+RSRP-RSRQ-ServingCellId State:
+63 67 22 31 2 
+67 63 31 22 1 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 66.16 (sec) eNB CellId 1 UE with IMSI 2 RNTI 2 measId 2 RSRP 67 RSRQ 31
+Time:
+66.16 66.16 
+RSRP-RSRQ-ServingCellId State:
+63 67 22 31 2 
+67 63 31 22 1 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 66.64 (sec) eNB CellId 2 UE with IMSI 1 RNTI 2 measId 2 RSRP 67 RSRQ 31
+Time:
+66.64 66.16 
+RSRP-RSRQ-ServingCellId State:
+63 67 22 31 2 
+67 63 31 22 1 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 66.64 (sec) eNB CellId 1 UE with IMSI 2 RNTI 2 measId 2 RSRP 67 RSRQ 31
+Time:
+66.64 66.64 
+RSRP-RSRQ-ServingCellId State:
+63 67 22 31 2 
+67 63 31 22 1 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 67.12 (sec) eNB CellId 2 UE with IMSI 1 RNTI 2 measId 2 RSRP 67 RSRQ 31
+Time:
+67.12 66.64 
+RSRP-RSRQ-ServingCellId State:
+63 67 22 31 2 
+67 63 31 22 1 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 67.12 (sec) eNB CellId 1 UE with IMSI 2 RNTI 2 measId 2 RSRP 67 RSRQ 31
+Time:
+67.12 67.12 
+RSRP-RSRQ-ServingCellId State:
+63 67 22 31 2 
+67 63 31 22 1 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 67.6 (sec) eNB CellId 2 UE with IMSI 1 RNTI 2 measId 2 RSRP 67 RSRQ 31
+Time:
+67.6 67.12 
+RSRP-RSRQ-ServingCellId State:
+63 67 22 31 2 
+67 63 31 22 1 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 67.6 (sec) eNB CellId 1 UE with IMSI 2 RNTI 2 measId 2 RSRP 67 RSRQ 31
+Time:
+67.6 67.6 
+RSRP-RSRQ-ServingCellId State:
+63 67 22 31 2 
+67 63 31 22 1 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 68.08 (sec) eNB CellId 2 UE with IMSI 1 RNTI 2 measId 2 RSRP 67 RSRQ 31
+Time:
+68.08 67.6 
+RSRP-RSRQ-ServingCellId State:
+63 67 22 31 2 
+67 63 31 22 1 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 68.08 (sec) eNB CellId 1 UE with IMSI 2 RNTI 2 measId 2 RSRP 67 RSRQ 31
+Time:
+68.08 68.08 
+RSRP-RSRQ-ServingCellId State:
+63 67 22 31 2 
+67 63 31 22 1 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 68.56 (sec) eNB CellId 2 UE with IMSI 1 RNTI 2 measId 2 RSRP 67 RSRQ 31
+Time:
+68.56 68.08 
+RSRP-RSRQ-ServingCellId State:
+63 67 22 31 2 
+67 63 31 22 1 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 68.56 (sec) eNB CellId 1 UE with IMSI 2 RNTI 2 measId 2 RSRP 67 RSRQ 31
+Time:
+68.56 68.56 
+RSRP-RSRQ-ServingCellId State:
+63 67 22 31 2 
+67 63 31 22 1 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 69.04 (sec) eNB CellId 2 UE with IMSI 1 RNTI 2 measId 2 RSRP 67 RSRQ 31
+Time:
+69.04 68.56 
+RSRP-RSRQ-ServingCellId State:
+63 67 22 31 2 
+67 63 31 22 1 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 69.04 (sec) eNB CellId 1 UE with IMSI 2 RNTI 2 measId 2 RSRP 67 RSRQ 31
+Time:
+69.04 69.04 
+RSRP-RSRQ-ServingCellId State:
+63 67 22 31 2 
+67 63 31 22 1 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 69.52 (sec) eNB CellId 2 UE with IMSI 1 RNTI 2 measId 2 RSRP 67 RSRQ 31
+Time:
+69.52 69.04 
+RSRP-RSRQ-ServingCellId State:
+63 67 22 31 2 
+67 63 31 22 1 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 69.52 (sec) eNB CellId 1 UE with IMSI 2 RNTI 2 measId 2 RSRP 67 RSRQ 31
+Time:
+69.52 69.52 
+RSRP-RSRQ-ServingCellId State:
+63 67 22 31 2 
+67 63 31 22 1 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 70 (sec) eNB CellId 2 UE with IMSI 1 RNTI 2 measId 2 RSRP 67 RSRQ 31
+Time:
+70 69.52 
+RSRP-RSRQ-ServingCellId State:
+63 67 22 31 2 
+67 63 31 22 1 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 70 (sec) eNB CellId 1 UE with IMSI 2 RNTI 2 measId 2 RSRP 67 RSRQ 31
+Time:
+70 70 
+RSRP-RSRQ-ServingCellId State:
+63 67 22 31 2 
+67 63 31 22 1 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 70.48 (sec) eNB CellId 2 UE with IMSI 1 RNTI 2 measId 2 RSRP 67 RSRQ 31
+Time:
+70.48 70 
+RSRP-RSRQ-ServingCellId State:
+62 67 22 31 2 
+67 63 31 22 1 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 70.48 (sec) eNB CellId 1 UE with IMSI 2 RNTI 2 measId 2 RSRP 67 RSRQ 31
+Time:
+70.48 70.48 
+RSRP-RSRQ-ServingCellId State:
+62 67 22 31 2 
+67 62 31 22 1 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 70.96 (sec) eNB CellId 2 UE with IMSI 1 RNTI 2 measId 2 RSRP 67 RSRQ 31
+Time:
+70.96 70.48 
+RSRP-RSRQ-ServingCellId State:
+62 67 22 31 2 
+67 62 31 22 1 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 70.96 (sec) eNB CellId 1 UE with IMSI 2 RNTI 2 measId 2 RSRP 67 RSRQ 31
+Time:
+70.96 70.96 
+RSRP-RSRQ-ServingCellId State:
+62 67 22 31 2 
+67 62 31 22 1 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 71.44 (sec) eNB CellId 2 UE with IMSI 1 RNTI 2 measId 2 RSRP 66 RSRQ 31
+Time:
+71.44 70.96 
+RSRP-RSRQ-ServingCellId State:
+62 66 22 31 2 
+67 62 31 22 1 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 71.44 (sec) eNB CellId 1 UE with IMSI 2 RNTI 2 measId 2 RSRP 66 RSRQ 31
+Time:
+71.44 71.44 
+RSRP-RSRQ-ServingCellId State:
+62 66 22 31 2 
+66 62 31 22 1 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 71.92 (sec) eNB CellId 2 UE with IMSI 1 RNTI 2 measId 2 RSRP 66 RSRQ 31
+Time:
+71.92 71.44 
+RSRP-RSRQ-ServingCellId State:
+62 66 22 31 2 
+66 62 31 22 1 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 71.92 (sec) eNB CellId 1 UE with IMSI 2 RNTI 2 measId 2 RSRP 66 RSRQ 31
+Time:
+71.92 71.92 
+RSRP-RSRQ-ServingCellId State:
+62 66 22 31 2 
+66 62 31 22 1 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 72.4 (sec) eNB CellId 2 UE with IMSI 1 RNTI 2 measId 2 RSRP 66 RSRQ 31
+Time:
+72.4 71.92 
+RSRP-RSRQ-ServingCellId State:
+62 66 22 31 2 
+66 62 31 22 1 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 72.4 (sec) eNB CellId 1 UE with IMSI 2 RNTI 2 measId 2 RSRP 66 RSRQ 31
+Time:
+72.4 72.4 
+RSRP-RSRQ-ServingCellId State:
+62 66 22 31 2 
+66 62 31 22 1 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 72.88 (sec) eNB CellId 2 UE with IMSI 1 RNTI 2 measId 2 RSRP 66 RSRQ 31
+Time:
+72.88 72.4 
+RSRP-RSRQ-ServingCellId State:
+62 66 22 31 2 
+66 62 31 22 1 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 72.88 (sec) eNB CellId 1 UE with IMSI 2 RNTI 2 measId 2 RSRP 66 RSRQ 31
+Time:
+72.88 72.88 
+RSRP-RSRQ-ServingCellId State:
+62 66 22 31 2 
+66 62 31 22 1 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 73.36 (sec) eNB CellId 2 UE with IMSI 1 RNTI 2 measId 2 RSRP 66 RSRQ 31
+Time:
+73.36 72.88 
+RSRP-RSRQ-ServingCellId State:
+62 66 22 31 2 
+66 62 31 22 1 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 73.36 (sec) eNB CellId 1 UE with IMSI 2 RNTI 2 measId 2 RSRP 66 RSRQ 31
+Time:
+73.36 73.36 
+RSRP-RSRQ-ServingCellId State:
+62 66 22 31 2 
+66 62 31 22 1 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 73.84 (sec) eNB CellId 2 UE with IMSI 1 RNTI 2 measId 2 RSRP 66 RSRQ 31
+Time:
+73.84 73.36 
+RSRP-RSRQ-ServingCellId State:
+62 66 23 31 2 
+66 62 31 22 1 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 73.84 (sec) eNB CellId 1 UE with IMSI 2 RNTI 2 measId 2 RSRP 66 RSRQ 31
+Time:
+73.84 73.84 
+RSRP-RSRQ-ServingCellId State:
+62 66 23 31 2 
+66 62 31 23 1 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 74.32 (sec) eNB CellId 2 UE with IMSI 1 RNTI 2 measId 2 RSRP 66 RSRQ 31
+Time:
+74.32 73.84 
+RSRP-RSRQ-ServingCellId State:
+62 66 23 31 2 
+66 62 31 23 1 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 74.32 (sec) eNB CellId 1 UE with IMSI 2 RNTI 2 measId 2 RSRP 66 RSRQ 31
+Time:
+74.32 74.32 
+RSRP-RSRQ-ServingCellId State:
+62 66 23 31 2 
+66 62 31 23 1 
+/NodeList/4/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 74.8 (sec) eNB CellId 2 UE with IMSI 1 RNTI 2 measId 2 RSRP 66 RSRQ 31
+Time:
+74.8 74.32 
+RSRP-RSRQ-ServingCellId State:
+62 66 23 31 2 
+66 62 31 23 1 
+/NodeList/3/DeviceList/0/LteEnbRrc/RecvMeasurementReport at time 74.8 (sec) eNB CellId 1 UE with IMSI 2 RNTI 2 measId 2 RSRP 66 RSRQ 31
+Time:
+74.8 74.8 
+RSRP-RSRQ-ServingCellId State:
+62 66 23 31 2 
+66 62 31 23 1 

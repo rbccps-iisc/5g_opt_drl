@@ -1,6 +1,4 @@
-import numpy as np
-import gym
-from gym import Env, spaces
+from gym import Env
 from ns3gym import ns3env
 
 from gym_utils import change_space_dtype, to_space_dtype

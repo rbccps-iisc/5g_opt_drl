@@ -16,3 +16,5 @@ if src_source_code != dst_source_code:
     print(f"Difference in {dst_file.name} observed. Updating it.")
     shutil.copy(src=src_file, dst=dst_file)
     print("Done")
+else:
+    print("No change in source code. No update required.")
